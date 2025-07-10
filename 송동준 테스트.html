@@ -1,0 +1,601 @@
+{\rtf1\ansi\ansicpg949\cocoartf2822
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 Menlo-Regular;}
+{\colortbl;\red255\green255\blue255;\red70\green137\blue204;\red23\green24\blue24;\red140\green211\blue254;
+\red202\green202\blue202;\red109\green109\blue109;\red194\green126\blue101;\red109\green115\blue120;\red212\green212\blue212;
+\red113\green192\blue131;\red167\green197\blue152;\red183\green111\blue247;\red246\green124\blue48;\red54\green192\blue160;
+}
+{\*\expandedcolortbl;;\cssrgb\c33725\c61176\c83922;\cssrgb\c11765\c12157\c12549;\cssrgb\c61176\c86275\c99608;
+\cssrgb\c83137\c83137\c83137;\cssrgb\c50196\c50196\c50196;\cssrgb\c80784\c56863\c47059;\cssrgb\c50196\c52549\c54510;\cssrgb\c86275\c86275\c86275;
+\cssrgb\c50588\c78824\c58431;\cssrgb\c70980\c80784\c65882;\cssrgb\c77255\c54118\c97647;\cssrgb\c98039\c56471\c24314;\cssrgb\c23922\c78824\c69020;
+}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs28 \cf2 \cb3 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 <!DOCTYPE\cf4 \strokec4  html\cf2 \strokec2 >\cf5 \cb1 \strokec5 \
+\pard\pardeftab720\partightenfactor0
+\cf6 \cb3 \strokec6 <\cf2 \strokec2 html\cf5 \strokec5  \cf4 \strokec4 lang\cf6 \strokec6 =\cf7 \strokec7 "ko"\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cf6 \cb3 \strokec6 <\cf2 \strokec2 head\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\pard\pardeftab720\partightenfactor0
+\cf5 \cb3     \cf6 \strokec6 <\cf2 \strokec2 meta\cf5 \strokec5  \cf4 \strokec4 charset\cf6 \strokec6 =\cf7 \strokec7 "UTF-8"\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3     \cf6 \strokec6 <\cf2 \strokec2 meta\cf5 \strokec5  \cf4 \strokec4 name\cf6 \strokec6 =\cf7 \strokec7 "viewport"\cf5 \strokec5  \cf4 \strokec4 content\cf6 \strokec6 =\cf7 \strokec7 "width=device-width, initial-scale=1.0"\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3     \cf6 \strokec6 <\cf2 \strokec2 title\cf6 \strokec6 >\cf5 \strokec5 \uc0\u49569 \u46041 \u51456  | \u49436 \u48708 \u49828  \u44592 \u54925 \u51088  \u54252 \u53944 \u54260 \u47532 \u50724 \cf6 \strokec6 </\cf2 \strokec2 title\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3     \cf6 \strokec6 <\cf2 \strokec2 script\cf5 \strokec5  \cf4 \strokec4 src\cf6 \strokec6 =\cf7 \strokec7 "https://cdn.tailwindcss.com"\cf6 \strokec6 ></\cf2 \strokec2 script\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3     \cf6 \strokec6 <\cf2 \strokec2 link\cf5 \strokec5  \cf4 \strokec4 rel\cf6 \strokec6 =\cf7 \strokec7 "stylesheet"\cf5 \strokec5  \cf4 \strokec4 as\cf6 \strokec6 =\cf7 \strokec7 "style"\cf5 \strokec5  \cf4 \strokec4 crossorigin\cf5 \strokec5  \cf4 \strokec4 href\cf6 \strokec6 =\cf7 \strokec7 "https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css"\cf5 \strokec5  \cf6 \strokec6 />\cf5 \cb1 \strokec5 \
+\cb3     \cf6 \strokec6 <\cf2 \strokec2 style\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3         \cf8 \strokec8 /* Pretendard Font */\cf5 \cb1 \strokec5 \
+\cb3         \cf2 \strokec2 body\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 font-family:\cf5 \strokec5  \cf10 \strokec10 'Pretendard'\cf9 \strokec9 ,\cf5 \strokec5  \cf7 \strokec7 -apple-system\cf9 \strokec9 ,\cf5 \strokec5  \cf7 \strokec7 BlinkMacSystemFont\cf9 \strokec9 ,\cf5 \strokec5  \cf7 \strokec7 system-ui\cf9 \strokec9 ,\cf5 \strokec5  \cf7 \strokec7 Roboto\cf9 \strokec9 ,\cf5 \strokec5  \cf10 \strokec10 'Helvetica Neue'\cf9 \strokec9 ,\cf5 \strokec5  \cf10 \strokec10 'Segoe UI'\cf9 \strokec9 ,\cf5 \strokec5  \cf10 \strokec10 'Apple SD Gothic Neo'\cf9 \strokec9 ,\cf5 \strokec5  \cf10 \strokec10 'Noto Sans KR'\cf9 \strokec9 ,\cf5 \strokec5  \cf10 \strokec10 'Malgun Gothic'\cf9 \strokec9 ,\cf5 \strokec5  \cf10 \strokec10 'Apple Color Emoji'\cf9 \strokec9 ,\cf5 \strokec5  \cf10 \strokec10 'Segoe UI Emoji'\cf9 \strokec9 ,\cf5 \strokec5  \cf10 \strokec10 'Segoe UI Symbol'\cf9 \strokec9 ,\cf5 \strokec5  \cf7 \strokec7 sans-serif\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 background-color:\cf5 \strokec5  #000000\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 color:\cf5 \strokec5  #ffffff\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 cursor:\cf5 \strokec5  \cf7 \strokec7 none\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3         \cf9 \strokec9 \}\cf5 \cb1 \strokec5 \
+\cb3         \cb1 \
+\cb3         \cf2 \strokec2 .container\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 max-width:\cf5 \strokec5  \cf11 \strokec11 1280px\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 margin:\cf5 \strokec5  \cf11 \strokec11 0\cf5 \strokec5  \cf7 \strokec7 auto\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 padding:\cf5 \strokec5  \cf11 \strokec11 0\cf5 \strokec5  \cf11 \strokec11 2rem\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3         \cf9 \strokec9 \}\cf5 \cb1 \strokec5 \
+\
+\cb3         \cf8 \strokec8 /* Custom Cursor */\cf5 \cb1 \strokec5 \
+\cb3         \cf2 \strokec2 .custom-cursor\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 position:\cf5 \strokec5  \cf7 \strokec7 fixed\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 top:\cf5 \strokec5  \cf11 \strokec11 0\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 left:\cf5 \strokec5  \cf11 \strokec11 0\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 pointer-events:\cf5 \strokec5  \cf7 \strokec7 none\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 z-index:\cf5 \strokec5  \cf11 \strokec11 9999\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 transition:\cf5 \strokec5  \cf7 \strokec7 transform\cf5 \strokec5  \cf11 \strokec11 0.1s\cf5 \strokec5  \cf7 \strokec7 ease-out\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 display:\cf5 \strokec5  \cf7 \strokec7 none\cf9 \strokec9 ;\cf5 \strokec5  \cf8 \strokec8 /* Hidden by default */\cf5 \cb1 \strokec5 \
+\cb3         \cf9 \strokec9 \}\cf5 \cb1 \strokec5 \
+\cb3         @\cf2 \strokec2 media\cf5 \strokec5  (\cf2 \strokec2 min-width:\cf5 \strokec5  1025\cf2 \strokec2 px\cf5 \strokec5 ) \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3             .custom-cursor \{\cb1 \
+\cb3                 \cf4 \strokec4 display:\cf5 \strokec5  \cf7 \strokec7 block\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3             \cf9 \strokec9 \}\cf5 \cb1 \strokec5 \
+\cb3         \}\cb1 \
+\cb3         \cf2 \strokec2 .cursor-dot\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 width:\cf5 \strokec5  \cf11 \strokec11 8px\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 height:\cf5 \strokec5  \cf11 \strokec11 8px\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 background-color:\cf5 \strokec5  #FEE500\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 border-radius:\cf5 \strokec5  \cf11 \strokec11 50%\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3         \cf9 \strokec9 \}\cf5 \cb1 \strokec5 \
+\cb3         \cf2 \strokec2 .cursor-outline\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 width:\cf5 \strokec5  \cf11 \strokec11 40px\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 height:\cf5 \strokec5  \cf11 \strokec11 40px\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 border:\cf5 \strokec5  \cf11 \strokec11 2px\cf5 \strokec5  \cf7 \strokec7 solid\cf5 \strokec5  #FEE500\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 border-radius:\cf5 \strokec5  \cf11 \strokec11 50%\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 transform:\cf5 \strokec5  \cf7 \strokec7 translate(\cf11 \strokec11 -16px\cf9 \strokec9 ,\cf5 \strokec5  \cf11 \strokec11 -16px\cf7 \strokec7 )\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 transition:\cf5 \strokec5  \cf7 \strokec7 all\cf5 \strokec5  \cf11 \strokec11 0.2s\cf5 \strokec5  \cf7 \strokec7 ease-out\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3         \cf9 \strokec9 \}\cf5 \cb1 \strokec5 \
+\cb3          \cf2 \strokec2 body:has\cf5 \strokec5 (\cf2 \strokec2 a:hover\cf9 \strokec9 ,\cf5 \strokec5  \cf2 \strokec2 button:hover\cf9 \strokec9 ,\cf5 \strokec5  \cf2 \strokec2 .project-card:hover\cf5 \strokec5 ) \cf2 \strokec2 .cursor-outline\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 transform:\cf5 \strokec5  \cf7 \strokec7 translate(\cf11 \strokec11 -16px\cf9 \strokec9 ,\cf5 \strokec5  \cf11 \strokec11 -16px\cf7 \strokec7 )\cf5 \strokec5  \cf7 \strokec7 scale(\cf11 \strokec11 1.5\cf7 \strokec7 )\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 background-color:\cf5 \strokec5  \cf7 \strokec7 rgba(\cf11 \strokec11 254\cf9 \strokec9 ,\cf5 \strokec5  \cf11 \strokec11 229\cf9 \strokec9 ,\cf5 \strokec5  \cf11 \strokec11 0\cf9 \strokec9 ,\cf5 \strokec5  \cf11 \strokec11 0.2\cf7 \strokec7 )\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3         \cf9 \strokec9 \}\cf5 \cb1 \strokec5 \
+\
+\cb3         \cf8 \strokec8 /* Gradient Text */\cf5 \cb1 \strokec5 \
+\cb3         \cf2 \strokec2 .gradient-text\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 background:\cf5 \strokec5  \cf7 \strokec7 linear-gradient(\cf11 \strokec11 90deg\cf9 \strokec9 ,\cf5 \strokec5  #FEE500\cf9 \strokec9 ,\cf5 \strokec5  #FFD400\cf7 \strokec7 )\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 -webkit-background-clip:\cf5 \strokec5  \cf7 \strokec7 text\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 -webkit-text-fill-color:\cf5 \strokec5  \cf7 \strokec7 transparent\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 background-clip:\cf5 \strokec5  \cf7 \strokec7 text\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 text-fill-color:\cf5 \strokec5  \cf7 \strokec7 transparent\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3         \cf9 \strokec9 \}\cf5 \cb1 \strokec5 \
+\
+\cb3         \cf8 \strokec8 /* Top Navigation Bar (GNB) */\cf5 \cb1 \strokec5 \
+\cb3         \cf2 \strokec2 .top-nav\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 position:\cf5 \strokec5  \cf7 \strokec7 fixed\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 top:\cf5 \strokec5  \cf11 \strokec11 0\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 left:\cf5 \strokec5  \cf11 \strokec11 0\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 right:\cf5 \strokec5  \cf11 \strokec11 0\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 background-color:\cf5 \strokec5  \cf7 \strokec7 rgba(\cf11 \strokec11 0\cf9 \strokec9 ,\cf5 \strokec5  \cf11 \strokec11 0\cf9 \strokec9 ,\cf5 \strokec5  \cf11 \strokec11 0\cf9 \strokec9 ,\cf5 \strokec5  \cf11 \strokec11 0.5\cf7 \strokec7 )\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 backdrop-filter:\cf5 \strokec5  \cf7 \strokec7 blur(\cf11 \strokec11 10px\cf7 \strokec7 )\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 z-index:\cf5 \strokec5  \cf11 \strokec11 1000\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 border-bottom:\cf5 \strokec5  \cf11 \strokec11 1px\cf5 \strokec5  \cf7 \strokec7 solid\cf5 \strokec5  #222\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3         \cf9 \strokec9 \}\cf5 \cb1 \strokec5 \
+\cb3         \cf2 \strokec2 .top-nav-content\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 display:\cf5 \strokec5  \cf7 \strokec7 flex\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 justify-content:\cf5 \strokec5  \cf7 \strokec7 space-between\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 align-items:\cf5 \strokec5  \cf7 \strokec7 center\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 height:\cf5 \strokec5  \cf11 \strokec11 60px\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3         \cf9 \strokec9 \}\cf5 \cb1 \strokec5 \
+\cb3         \cf2 \strokec2 .top-nav-menu\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 display:\cf5 \strokec5  \cf7 \strokec7 none\cf9 \strokec9 ;\cf5 \strokec5  \cf8 \strokec8 /* Hidden on mobile */\cf5 \cb1 \strokec5 \
+\cb3         \cf9 \strokec9 \}\cf5 \cb1 \strokec5 \
+\cb3         \cf2 \strokec2 .hamburger-menu\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 display:\cf5 \strokec5  \cf7 \strokec7 block\cf9 \strokec9 ;\cf5 \strokec5  \cf8 \strokec8 /* Shown on mobile */\cf5 \cb1 \strokec5 \
+\cb3         \cf9 \strokec9 \}\cf5 \cb1 \strokec5 \
+\cb3         @\cf2 \strokec2 media\cf5 \strokec5  (\cf2 \strokec2 min-width:\cf5 \strokec5  1024\cf2 \strokec2 px\cf5 \strokec5 ) \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3             .top-nav-menu \{ \cf4 \strokec4 display:\cf5 \strokec5  \cf7 \strokec7 flex\cf9 \strokec9 ;\cf5 \strokec5  \cf9 \strokec9 \}\cf5 \cb1 \strokec5 \
+\cb3             \cf2 \strokec2 .hamburger-menu\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \strokec5  \cf4 \strokec4 display:\cf5 \strokec5  \cf7 \strokec7 none\cf9 \strokec9 ;\cf5 \strokec5  \cf9 \strokec9 \}\cf5 \cb1 \strokec5 \
+\cb3         \}\cb1 \
+\cb3         \cf2 \strokec2 .top-nav-menu\cf5 \strokec5  \cf2 \strokec2 a\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 margin-left:\cf5 \strokec5  \cf11 \strokec11 2rem\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 font-size:\cf5 \strokec5  \cf11 \strokec11 0.9rem\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 font-weight:\cf5 \strokec5  \cf11 \strokec11 500\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 color:\cf5 \strokec5  #ccc\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 transition:\cf5 \strokec5  \cf7 \strokec7 color\cf5 \strokec5  \cf11 \strokec11 0.3s\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3         \cf9 \strokec9 \}\cf5 \cb1 \strokec5 \
+\cb3         \cf2 \strokec2 .top-nav-menu\cf5 \strokec5  \cf2 \strokec2 a:hover\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 color:\cf5 \strokec5  #fff\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3         \cf9 \strokec9 \}\cf5 \cb1 \strokec5 \
+\
+\cb3         \cf8 \strokec8 /* Mobile Menu Overlay */\cf5 \cb1 \strokec5 \
+\cb3         \cf2 \strokec2 .mobile-menu-overlay\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 position:\cf5 \strokec5  \cf7 \strokec7 fixed\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 top:\cf5 \strokec5  \cf11 \strokec11 0\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 left:\cf5 \strokec5  \cf11 \strokec11 0\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 width:\cf5 \strokec5  \cf11 \strokec11 100%\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 height:\cf5 \strokec5  \cf11 \strokec11 100%\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 background-color:\cf5 \strokec5  \cf7 \strokec7 rgba(\cf11 \strokec11 0\cf9 \strokec9 ,\cf11 \strokec11 0\cf9 \strokec9 ,\cf11 \strokec11 0\cf9 \strokec9 ,\cf11 \strokec11 0.95\cf7 \strokec7 )\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 z-index:\cf5 \strokec5  \cf11 \strokec11 1100\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 display:\cf5 \strokec5  \cf7 \strokec7 flex\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 flex-direction:\cf5 \strokec5  \cf7 \strokec7 column\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 align-items:\cf5 \strokec5  \cf7 \strokec7 center\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 justify-content:\cf5 \strokec5  \cf7 \strokec7 center\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 opacity:\cf5 \strokec5  \cf11 \strokec11 0\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 pointer-events:\cf5 \strokec5  \cf7 \strokec7 none\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 transition:\cf5 \strokec5  \cf7 \strokec7 opacity\cf5 \strokec5  \cf11 \strokec11 0.3s\cf5 \strokec5  \cf7 \strokec7 ease\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3         \cf9 \strokec9 \}\cf5 \cb1 \strokec5 \
+\cb3         \cf2 \strokec2 .mobile-menu-overlay.open\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 opacity:\cf5 \strokec5  \cf11 \strokec11 1\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 pointer-events:\cf5 \strokec5  \cf7 \strokec7 auto\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3         \cf9 \strokec9 \}\cf5 \cb1 \strokec5 \
+\cb3         \cf2 \strokec2 .mobile-menu-overlay\cf5 \strokec5  \cf2 \strokec2 nav\cf5 \strokec5  \cf2 \strokec2 a\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 font-size:\cf5 \strokec5  \cf11 \strokec11 2rem\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 font-weight:\cf5 \strokec5  \cf11 \strokec11 700\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 color:\cf5 \strokec5  #fff\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 padding:\cf5 \strokec5  \cf11 \strokec11 1rem\cf5 \strokec5  \cf11 \strokec11 0\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3         \cf9 \strokec9 \}\cf5 \cb1 \strokec5 \
+\cb3         \cf2 \strokec2 .mobile-menu-close\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 position:\cf5 \strokec5  \cf7 \strokec7 absolute\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 top:\cf5 \strokec5  \cf11 \strokec11 2rem\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 right:\cf5 \strokec5  \cf11 \strokec11 2rem\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 color:\cf5 \strokec5  #fff\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3         \cf9 \strokec9 \}\cf5 \cb1 \strokec5 \
+\
+\cb3         \cf8 \strokec8 /* Main Wrapper */\cf5 \cb1 \strokec5 \
+\cb3         \cf2 \strokec2 .main-wrapper\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 padding-top:\cf5 \strokec5  \cf11 \strokec11 60px\cf9 \strokec9 ;\cf5 \strokec5  \cf8 \strokec8 /* Offset for GNB */\cf5 \cb1 \strokec5 \
+\cb3         \cf9 \strokec9 \}\cf5 \cb1 \strokec5 \
+\
+\cb3         \cf8 \strokec8 /* Hero Section */\cf5 \cb1 \strokec5 \
+\cb3         \cf2 \strokec2 #hero\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 height:\cf5 \strokec5  \cf7 \strokec7 calc(\cf11 \strokec11 100vh\cf5 \strokec5  \cf9 \strokec9 -\cf5 \strokec5  \cf11 \strokec11 60px\cf7 \strokec7 )\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3         \cf9 \strokec9 \}\cf5 \cb1 \strokec5 \
+\cb3         \cf2 \strokec2 #hero-video\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 position:\cf5 \strokec5  \cf7 \strokec7 absolute\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 top:\cf5 \strokec5  \cf11 \strokec11 0\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 left:\cf5 \strokec5  \cf11 \strokec11 0\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 width:\cf5 \strokec5  \cf11 \strokec11 100%\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 height:\cf5 \strokec5  \cf11 \strokec11 100vh\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 z-index:\cf5 \strokec5  \cf11 \strokec11 -1\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 object-fit:\cf5 \strokec5  \cf7 \strokec7 cover\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3         \cf9 \strokec9 \}\cf5 \cb1 \strokec5 \
+\cb3         \cf2 \strokec2 #hero-title\cf5 \strokec5  \cf2 \strokec2 span\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 opacity:\cf5 \strokec5  \cf11 \strokec11 0\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 transform:\cf5 \strokec5  \cf7 \strokec7 translateY(\cf11 \strokec11 20px\cf7 \strokec7 )\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 display:\cf5 \strokec5  \cf7 \strokec7 inline-block\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 transition:\cf5 \strokec5  \cf7 \strokec7 opacity\cf5 \strokec5  \cf11 \strokec11 0.5s\cf5 \strokec5  \cf7 \strokec7 ease\cf9 \strokec9 ,\cf5 \strokec5  \cf7 \strokec7 transform\cf5 \strokec5  \cf11 \strokec11 0.5s\cf5 \strokec5  \cf7 \strokec7 ease\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3         \cf9 \strokec9 \}\cf5 \cb1 \strokec5 \
+\cb3         \cb1 \
+\cb3         \cf8 \strokec8 /* Main Page Grid Layout */\cf5 \cb1 \strokec5 \
+\cb3         \cf2 \strokec2 .page-grid\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 display:\cf5 \strokec5  \cf7 \strokec7 grid\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 grid-template-columns:\cf5 \strokec5  \cf7 \strokec7 auto\cf5 \strokec5  \cf11 \strokec11 1fr\cf5 \strokec5  \cf11 \strokec11 2fr\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 gap:\cf5 \strokec5  \cf11 \strokec11 4rem\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3         \cf9 \strokec9 \}\cf5 \cb1 \strokec5 \
+\
+\cb3         \cf8 \strokec8 /* Vertical Title in the first column */\cf5 \cb1 \strokec5 \
+\cb3         \cf2 \strokec2 .side-rotated-indicator\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 grid-column:\cf5 \strokec5  \cf11 \strokec11 1\cf5 \strokec5  \cf9 \strokec9 /\cf5 \strokec5  \cf11 \strokec11 2\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 grid-row:\cf5 \strokec5  \cf11 \strokec11 1\cf5 \strokec5  \cf9 \strokec9 /\cf5 \strokec5  \cf11 \strokec11 3\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 font-size:\cf5 \strokec5  \cf11 \strokec11 1rem\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 font-weight:\cf5 \strokec5  \cf11 \strokec11 700\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 color:\cf5 \strokec5  #FEE500\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 writing-mode:\cf5 \strokec5  \cf7 \strokec7 vertical-rl\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 text-orientation:\cf5 \strokec5  \cf7 \strokec7 mixed\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 display:\cf5 \strokec5  \cf7 \strokec7 flex\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 align-items:\cf5 \strokec5  \cf7 \strokec7 center\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 justify-content:\cf5 \strokec5  \cf7 \strokec7 center\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 position:\cf5 \strokec5  \cf7 \strokec7 sticky\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 top:\cf5 \strokec5  \cf11 \strokec11 60px\cf9 \strokec9 ;\cf5 \strokec5  \cf8 \strokec8 /* Adjusted for GNB */\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 height:\cf5 \strokec5  \cf7 \strokec7 calc(\cf11 \strokec11 100vh\cf5 \strokec5  \cf9 \strokec9 -\cf5 \strokec5  \cf11 \strokec11 60px\cf7 \strokec7 )\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3         \cf9 \strokec9 \}\cf5 \cb1 \strokec5 \
+\
+\cb3         \cf8 \strokec8 /* Main Title in the second column */\cf5 \cb1 \strokec5 \
+\cb3         \cf2 \strokec2 .main-title-wrapper\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 grid-column:\cf5 \strokec5  \cf11 \strokec11 2\cf5 \strokec5  \cf9 \strokec9 /\cf5 \strokec5  \cf11 \strokec11 4\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 grid-row:\cf5 \strokec5  \cf11 \strokec11 1\cf5 \strokec5  \cf9 \strokec9 /\cf5 \strokec5  \cf11 \strokec11 2\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 padding:\cf5 \strokec5  \cf11 \strokec11 4rem\cf5 \strokec5  \cf11 \strokec11 0\cf5 \strokec5  \cf11 \strokec11 2rem\cf5 \strokec5  \cf11 \strokec11 0\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3         \cf9 \strokec9 \}\cf5 \cb1 \strokec5 \
+\cb3         \cf2 \strokec2 .main-title\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 font-size:\cf5 \strokec5  \cf11 \strokec11 4rem\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 font-weight:\cf5 \strokec5  \cf11 \strokec11 800\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 line-height:\cf5 \strokec5  \cf11 \strokec11 1.3\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3         \cf9 \strokec9 \}\cf5 \cb1 \strokec5 \
+\
+\cb3         \cf8 \strokec8 /* Sticky Navigation Column */\cf5 \cb1 \strokec5 \
+\cb3         \cf2 \strokec2 .sticky-column\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 grid-column:\cf5 \strokec5  \cf11 \strokec11 2\cf5 \strokec5  \cf9 \strokec9 /\cf5 \strokec5  \cf11 \strokec11 3\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 grid-row:\cf5 \strokec5  \cf11 \strokec11 2\cf5 \strokec5  \cf9 \strokec9 /\cf5 \strokec5  \cf11 \strokec11 3\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 position:\cf5 \strokec5  \cf7 \strokec7 sticky\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 top:\cf5 \strokec5  \cf11 \strokec11 60px\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 height:\cf5 \strokec5  \cf7 \strokec7 calc(\cf11 \strokec11 100vh\cf5 \strokec5  \cf9 \strokec9 -\cf5 \strokec5  \cf11 \strokec11 60px\cf7 \strokec7 )\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 display:\cf5 \strokec5  \cf7 \strokec7 flex\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 flex-direction:\cf5 \strokec5  \cf7 \strokec7 column\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 justify-content:\cf5 \strokec5  \cf7 \strokec7 center\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3         \cf9 \strokec9 \}\cf5 \cb1 \strokec5 \
+\
+\cb3         \cf8 \strokec8 /* Sticky Navigation Menu */\cf5 \cb1 \strokec5 \
+\cb3         \cf2 \strokec2 .sticky-nav\cf5 \strokec5  \cf2 \strokec2 a\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 display:\cf5 \strokec5  \cf7 \strokec7 block\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 padding:\cf5 \strokec5  \cf11 \strokec11 0.75rem\cf5 \strokec5  \cf11 \strokec11 0\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 font-size:\cf5 \strokec5  \cf11 \strokec11 1.125rem\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 font-weight:\cf5 \strokec5  \cf11 \strokec11 500\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 color:\cf5 \strokec5  #666666\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 transition:\cf5 \strokec5  \cf7 \strokec7 all\cf5 \strokec5  \cf11 \strokec11 0.3s\cf5 \strokec5  \cf7 \strokec7 ease\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 text-decoration:\cf5 \strokec5  \cf7 \strokec7 none\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3         \cf9 \strokec9 \}\cf5 \cb1 \strokec5 \
+\cb3         \cf2 \strokec2 .sticky-nav\cf5 \strokec5  \cf2 \strokec2 a.active\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 color:\cf5 \strokec5  #ffffff\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 font-weight:\cf5 \strokec5  \cf11 \strokec11 700\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3         \cf9 \strokec9 \}\cf5 \cb1 \strokec5 \
+\
+\cb3         \cf8 \strokec8 /* Content Column */\cf5 \cb1 \strokec5 \
+\cb3         \cf2 \strokec2 .content-column\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 grid-column:\cf5 \strokec5  \cf11 \strokec11 3\cf5 \strokec5  \cf9 \strokec9 /\cf5 \strokec5  \cf11 \strokec11 4\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 grid-row:\cf5 \strokec5  \cf11 \strokec11 2\cf5 \strokec5  \cf9 \strokec9 /\cf5 \strokec5  \cf11 \strokec11 3\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3         \cf9 \strokec9 \}\cf5 \cb1 \strokec5 \
+\cb3         \cf2 \strokec2 .content-section\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 min-height:\cf5 \strokec5  \cf11 \strokec11 90vh\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 display:\cf5 \strokec5  \cf7 \strokec7 flex\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 flex-direction:\cf5 \strokec5  \cf7 \strokec7 column\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 justify-content:\cf5 \strokec5  \cf7 \strokec7 center\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 padding:\cf5 \strokec5  \cf11 \strokec11 5vh\cf5 \strokec5  \cf11 \strokec11 0\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3         \cf9 \strokec9 \}\cf5 \cb1 \strokec5 \
+\cb3         \cf2 \strokec2 .content-title\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 font-size:\cf5 \strokec5  \cf11 \strokec11 2.5rem\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 font-weight:\cf5 \strokec5  \cf11 \strokec11 800\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 margin-bottom:\cf5 \strokec5  \cf11 \strokec11 1.5rem\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3         \cf9 \strokec9 \}\cf5 \cb1 \strokec5 \
+\cb3         \cf2 \strokec2 .content-body\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 font-size:\cf5 \strokec5  \cf11 \strokec11 1.25rem\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 color:\cf5 \strokec5  #cccccc\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 max-width:\cf5 \strokec5  \cf11 \strokec11 600px\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 line-height:\cf5 \strokec5  \cf11 \strokec11 1.8\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3         \cf9 \strokec9 \}\cf5 \cb1 \strokec5 \
+\cb3         \cb1 \
+\cb3         \cf8 \strokec8 /* Projects Section */\cf5 \cb1 \strokec5 \
+\cb3         \cf2 \strokec2 #projects-section\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 padding:\cf5 \strokec5  \cf11 \strokec11 8rem\cf5 \strokec5  \cf11 \strokec11 0\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3         \cf9 \strokec9 \}\cf5 \cb1 \strokec5 \
+\cb3         \cf2 \strokec2 #projects-container\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 display:\cf5 \strokec5  \cf7 \strokec7 flex\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 overflow-x:\cf5 \strokec5  \cf7 \strokec7 auto\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 padding:\cf5 \strokec5  \cf11 \strokec11 2rem\cf5 \strokec5  \cf11 \strokec11 0\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 scrollbar-width:\cf5 \strokec5  \cf7 \strokec7 none\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 -ms-overflow-style:\cf5 \strokec5  \cf7 \strokec7 none\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 scroll-snap-type:\cf5 \strokec5  \cf7 \strokec7 x\cf5 \strokec5  \cf7 \strokec7 mandatory\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3         \cf9 \strokec9 \}\cf5 \cb1 \strokec5 \
+\cb3         \cf2 \strokec2 #projects-container::-webkit-scrollbar\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \strokec5  \cf4 \strokec4 display:\cf5 \strokec5  \cf7 \strokec7 none\cf9 \strokec9 ;\cf5 \strokec5  \cf9 \strokec9 \}\cf5 \cb1 \strokec5 \
+\cb3         \cf2 \strokec2 #projects-wrapper\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \strokec5  \cf4 \strokec4 display:\cf5 \strokec5  \cf7 \strokec7 flex\cf9 \strokec9 ;\cf5 \strokec5  \cf4 \strokec4 gap:\cf5 \strokec5  \cf11 \strokec11 2rem\cf9 \strokec9 ;\cf5 \strokec5  \cf9 \strokec9 \}\cf5 \cb1 \strokec5 \
+\cb3         \cf2 \strokec2 .project-card\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3             \cf8 \strokec8 /* Removed fixed flex-basis, now handled by Tailwind classes */\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 background-color:\cf5 \strokec5  \cf7 \strokec7 rgba(\cf11 \strokec11 30\cf9 \strokec9 ,\cf5 \strokec5  \cf11 \strokec11 30\cf9 \strokec9 ,\cf5 \strokec5  \cf11 \strokec11 30\cf9 \strokec9 ,\cf5 \strokec5  \cf11 \strokec11 0.7\cf7 \strokec7 )\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 border-radius:\cf5 \strokec5  \cf11 \strokec11 1rem\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 overflow:\cf5 \strokec5  \cf7 \strokec7 hidden\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 transition:\cf5 \strokec5  \cf7 \strokec7 all\cf5 \strokec5  \cf11 \strokec11 0.3s\cf5 \strokec5  \cf7 \strokec7 ease-out\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 scroll-snap-align:\cf5 \strokec5  \cf7 \strokec7 center\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3         \cf9 \strokec9 \}\cf5 \cb1 \strokec5 \
+\cb3         \cf2 \strokec2 .project-card:hover\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 transform:\cf5 \strokec5  \cf7 \strokec7 translateY(\cf11 \strokec11 -10px\cf7 \strokec7 )\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 box-shadow:\cf5 \strokec5  \cf11 \strokec11 0\cf5 \strokec5  \cf11 \strokec11 20px\cf5 \strokec5  \cf11 \strokec11 40px\cf5 \strokec5  \cf7 \strokec7 rgba(\cf11 \strokec11 0\cf9 \strokec9 ,\cf11 \strokec11 0\cf9 \strokec9 ,\cf11 \strokec11 0\cf9 \strokec9 ,\cf11 \strokec11 0.5\cf7 \strokec7 )\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3         \cf9 \strokec9 \}\cf5 \cb1 \strokec5 \
+\
+\cb3         \cf8 \strokec8 /* Responsive */\cf5 \cb1 \strokec5 \
+\cb3         @\cf2 \strokec2 media\cf5 \strokec5  (\cf2 \strokec2 max-width:\cf5 \strokec5  1024\cf2 \strokec2 px\cf5 \strokec5 ) \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3             .page-grid \{ \cf4 \strokec4 grid-template-columns:\cf5 \strokec5  \cf11 \strokec11 1fr\cf9 \strokec9 ;\cf5 \strokec5  \cf4 \strokec4 gap:\cf5 \strokec5  \cf11 \strokec11 0\cf9 \strokec9 ;\cf5 \strokec5  \cf9 \strokec9 \}\cf5 \cb1 \strokec5 \
+\cb3             \cf2 \strokec2 .side-rotated-indicator\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \strokec5  \cf4 \strokec4 display:\cf5 \strokec5  \cf7 \strokec7 none\cf9 \strokec9 ;\cf5 \strokec5  \cf9 \strokec9 \}\cf5 \cb1 \strokec5 \
+\cb3             \cf2 \strokec2 .main-title-wrapper\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \strokec5  \cf4 \strokec4 grid-column:\cf5 \strokec5  \cf11 \strokec11 1\cf5 \strokec5  \cf9 \strokec9 /\cf5 \strokec5  \cf11 \strokec11 2\cf9 \strokec9 ;\cf5 \strokec5  \cf4 \strokec4 grid-row:\cf5 \strokec5  \cf11 \strokec11 1\cf5 \strokec5  \cf9 \strokec9 /\cf5 \strokec5  \cf11 \strokec11 2\cf9 \strokec9 ;\cf5 \strokec5  \cf4 \strokec4 padding:\cf5 \strokec5  \cf11 \strokec11 4rem\cf5 \strokec5  \cf11 \strokec11 0\cf9 \strokec9 ;\cf5 \strokec5  \cf9 \strokec9 \}\cf5 \cb1 \strokec5 \
+\cb3             \cf2 \strokec2 .main-title\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \strokec5  \cf4 \strokec4 font-size:\cf5 \strokec5  \cf11 \strokec11 2.5rem\cf9 \strokec9 ;\cf5 \strokec5  \cf9 \strokec9 \}\cf5 \cb1 \strokec5 \
+\cb3             \cf2 \strokec2 .sticky-column\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                 \cf4 \strokec4 position:\cf5 \strokec5  \cf7 \strokec7 static\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3                 \cf4 \strokec4 height:\cf5 \strokec5  \cf7 \strokec7 auto\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3                 \cf4 \strokec4 grid-column:\cf5 \strokec5  \cf11 \strokec11 1\cf5 \strokec5  \cf9 \strokec9 /\cf5 \strokec5  \cf11 \strokec11 2\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3                 \cf4 \strokec4 grid-row:\cf5 \strokec5  \cf11 \strokec11 2\cf5 \strokec5  \cf9 \strokec9 /\cf5 \strokec5  \cf11 \strokec11 3\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3                 \cf4 \strokec4 padding:\cf5 \strokec5  \cf11 \strokec11 1rem\cf5 \strokec5  \cf11 \strokec11 0\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3                 \cf4 \strokec4 border-bottom:\cf5 \strokec5  \cf11 \strokec11 1px\cf5 \strokec5  \cf7 \strokec7 solid\cf5 \strokec5  #222\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3                 \cf4 \strokec4 margin-bottom:\cf5 \strokec5  \cf11 \strokec11 2rem\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3             \cf9 \strokec9 \}\cf5 \cb1 \strokec5 \
+\cb3             \cf2 \strokec2 .sticky-nav\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                 \cf4 \strokec4 display:\cf5 \strokec5  \cf7 \strokec7 flex\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3                 \cf4 \strokec4 overflow-x:\cf5 \strokec5  \cf7 \strokec7 auto\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3                 \cf4 \strokec4 scrollbar-width:\cf5 \strokec5  \cf7 \strokec7 none\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3                 \cf4 \strokec4 -ms-overflow-style:\cf5 \strokec5  \cf7 \strokec7 none\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3             \cf9 \strokec9 \}\cf5 \cb1 \strokec5 \
+\cb3             \cf2 \strokec2 .sticky-nav::-webkit-scrollbar\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \strokec5  \cf4 \strokec4 display:\cf5 \strokec5  \cf7 \strokec7 none\cf9 \strokec9 ;\cf5 \strokec5  \cf9 \strokec9 \}\cf5 \cb1 \strokec5 \
+\cb3             \cf2 \strokec2 .sticky-nav\cf5 \strokec5  \cf2 \strokec2 a\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                 \cf4 \strokec4 flex-shrink:\cf5 \strokec5  \cf11 \strokec11 0\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3                 \cf4 \strokec4 padding:\cf5 \strokec5  \cf11 \strokec11 0.5rem\cf5 \strokec5  \cf11 \strokec11 1rem\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3                 \cf4 \strokec4 font-size:\cf5 \strokec5  \cf11 \strokec11 1rem\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3                 \cf4 \strokec4 white-space:\cf5 \strokec5  \cf7 \strokec7 nowrap\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3             \cf9 \strokec9 \}\cf5 \cb1 \strokec5 \
+\cb3             \cf2 \strokec2 .sticky-nav\cf5 \strokec5  \cf2 \strokec2 a.active\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                 \cf4 \strokec4 color:\cf5 \strokec5  #FEE500\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3             \cf9 \strokec9 \}\cf5 \cb1 \strokec5 \
+\cb3             \cf2 \strokec2 .content-column\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                 \cf4 \strokec4 grid-column:\cf5 \strokec5  \cf11 \strokec11 1\cf5 \strokec5  \cf9 \strokec9 /\cf5 \strokec5  \cf11 \strokec11 2\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3                 \cf4 \strokec4 grid-row:\cf5 \strokec5  \cf11 \strokec11 3\cf5 \strokec5  \cf9 \strokec9 /\cf5 \strokec5  \cf11 \strokec11 4\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3             \cf9 \strokec9 \}\cf5 \cb1 \strokec5 \
+\cb3             \cf2 \strokec2 .content-section\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \strokec5  \cf4 \strokec4 min-height:\cf5 \strokec5  \cf7 \strokec7 auto\cf9 \strokec9 ;\cf5 \strokec5  \cf4 \strokec4 padding:\cf5 \strokec5  \cf11 \strokec11 2rem\cf5 \strokec5  \cf11 \strokec11 0\cf9 \strokec9 ;\cf5 \strokec5  \cf9 \strokec9 \}\cf5 \cb1 \strokec5 \
+\cb3             \cf2 \strokec2 .content-title\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \strokec5  \cf4 \strokec4 font-size:\cf5 \strokec5  \cf11 \strokec11 2rem\cf9 \strokec9 ;\cf5 \strokec5  \cf9 \strokec9 \}\cf5 \cb1 \strokec5 \
+\cb3             \cf8 \strokec8 /* Removed flex: 0 0 80vw, now handled by Tailwind classes on the element */\cf5 \cb1 \strokec5 \
+\cb3         \}\cb1 \
+\cb3     \cf6 \strokec6 </\cf2 \strokec2 style\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\pard\pardeftab720\partightenfactor0
+\cf6 \cb3 \strokec6 </\cf2 \strokec2 head\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cf6 \cb3 \strokec6 <\cf2 \strokec2 body\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\pard\pardeftab720\partightenfactor0
+\cf5 \cb3     \cf6 \strokec6 <\cf2 \strokec2 div\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "custom-cursor cursor-dot"\cf6 \strokec6 ></\cf2 \strokec2 div\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3     \cf6 \strokec6 <\cf2 \strokec2 div\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "custom-cursor cursor-outline"\cf6 \strokec6 ></\cf2 \strokec2 div\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\
+\cb3     \cf6 \strokec6 <\cf2 \strokec2 header\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "top-nav"\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3         \cf6 \strokec6 <\cf2 \strokec2 div\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "container top-nav-content"\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 <\cf2 \strokec2 a\cf5 \strokec5  \cf4 \strokec4 href\cf6 \strokec6 =\cf7 \strokec7 "#hero"\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "logo font-bold text-lg magnetic-item"\cf6 \strokec6 >\cf5 \strokec5 SONG DONG JOON\cf6 \strokec6 </\cf2 \strokec2 a\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 <\cf2 \strokec2 nav\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "top-nav-menu"\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                 \cf6 \strokec6 <\cf2 \strokec2 a\cf5 \strokec5  \cf4 \strokec4 href\cf6 \strokec6 =\cf7 \strokec7 "#how-i-work"\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "magnetic-item"\cf6 \strokec6 >\cf5 \strokec5 HOW I WORK\cf6 \strokec6 </\cf2 \strokec2 a\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                 \cf6 \strokec6 <\cf2 \strokec2 a\cf5 \strokec5  \cf4 \strokec4 href\cf6 \strokec6 =\cf7 \strokec7 "#projects-section"\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "magnetic-item"\cf6 \strokec6 >\cf5 \strokec5 PROJECTS\cf6 \strokec6 </\cf2 \strokec2 a\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                 \cf6 \strokec6 <\cf2 \strokec2 a\cf5 \strokec5  \cf4 \strokec4 href\cf6 \strokec6 =\cf7 \strokec7 "#contact"\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "magnetic-item"\cf6 \strokec6 >\cf5 \strokec5 CONTACT\cf6 \strokec6 </\cf2 \strokec2 a\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 </\cf2 \strokec2 nav\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 <\cf2 \strokec2 button\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "hamburger-menu"\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                 \cf6 \strokec6 <\cf2 \strokec2 svg\cf5 \strokec5  \cf4 \strokec4 xmlns\cf6 \strokec6 =\cf7 \strokec7 "http://www.w3.org/2000/svg"\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "h-6 w-6"\cf5 \strokec5  \cf4 \strokec4 fill\cf6 \strokec6 =\cf7 \strokec7 "none"\cf5 \strokec5  \cf4 \strokec4 viewBox\cf6 \strokec6 =\cf7 \strokec7 "0 0 24 24"\cf5 \strokec5  \cf4 \strokec4 stroke\cf6 \strokec6 =\cf7 \strokec7 "currentColor"\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                     \cf6 \strokec6 <\cf2 \strokec2 path\cf5 \strokec5  \cf4 \strokec4 stroke-linecap\cf6 \strokec6 =\cf7 \strokec7 "round"\cf5 \strokec5  \cf4 \strokec4 stroke-linejoin\cf6 \strokec6 =\cf7 \strokec7 "round"\cf5 \strokec5  \cf4 \strokec4 stroke-width\cf6 \strokec6 =\cf7 \strokec7 "2"\cf5 \strokec5  \cf4 \strokec4 d\cf6 \strokec6 =\cf7 \strokec7 "M4 6h16M4 12h16m-4 6h4"\cf5 \strokec5  \cf6 \strokec6 />\cf5 \cb1 \strokec5 \
+\cb3                 \cf6 \strokec6 </\cf2 \strokec2 svg\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 </\cf2 \strokec2 button\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3         \cf6 \strokec6 </\cf2 \strokec2 div\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3     \cf6 \strokec6 </\cf2 \strokec2 header\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\
+\cb3     \cf8 \strokec8 <!-- Mobile Menu Overlay -->\cf5 \cb1 \strokec5 \
+\cb3     \cf6 \strokec6 <\cf2 \strokec2 div\cf5 \strokec5  \cf4 \strokec4 id\cf6 \strokec6 =\cf7 \strokec7 "mobile-menu-overlay"\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "mobile-menu-overlay"\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3         \cf6 \strokec6 <\cf2 \strokec2 button\cf5 \strokec5  \cf4 \strokec4 id\cf6 \strokec6 =\cf7 \strokec7 "mobile-menu-close"\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "mobile-menu-close"\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 <\cf2 \strokec2 svg\cf5 \strokec5  \cf4 \strokec4 xmlns\cf6 \strokec6 =\cf7 \strokec7 "http://www.w3.org/2000/svg"\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "h-8 w-8"\cf5 \strokec5  \cf4 \strokec4 fill\cf6 \strokec6 =\cf7 \strokec7 "none"\cf5 \strokec5  \cf4 \strokec4 viewBox\cf6 \strokec6 =\cf7 \strokec7 "0 0 24 24"\cf5 \strokec5  \cf4 \strokec4 stroke\cf6 \strokec6 =\cf7 \strokec7 "currentColor"\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                 \cf6 \strokec6 <\cf2 \strokec2 path\cf5 \strokec5  \cf4 \strokec4 stroke-linecap\cf6 \strokec6 =\cf7 \strokec7 "round"\cf5 \strokec5  \cf4 \strokec4 stroke-linejoin\cf6 \strokec6 =\cf7 \strokec7 "round"\cf5 \strokec5  \cf4 \strokec4 stroke-width\cf6 \strokec6 =\cf7 \strokec7 "2"\cf5 \strokec5  \cf4 \strokec4 d\cf6 \strokec6 =\cf7 \strokec7 "M6 18L18 6M6 6l12 12"\cf5 \strokec5  \cf6 \strokec6 />\cf5 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 </\cf2 \strokec2 svg\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3         \cf6 \strokec6 </\cf2 \strokec2 button\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3         \cf6 \strokec6 <\cf2 \strokec2 nav\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "flex flex-col text-center"\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 <\cf2 \strokec2 a\cf5 \strokec5  \cf4 \strokec4 href\cf6 \strokec6 =\cf7 \strokec7 "#how-i-work"\cf6 \strokec6 >\cf5 \strokec5 HOW I WORK\cf6 \strokec6 </\cf2 \strokec2 a\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 <\cf2 \strokec2 a\cf5 \strokec5  \cf4 \strokec4 href\cf6 \strokec6 =\cf7 \strokec7 "#projects-section"\cf6 \strokec6 >\cf5 \strokec5 PROJECTS\cf6 \strokec6 </\cf2 \strokec2 a\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 <\cf2 \strokec2 a\cf5 \strokec5  \cf4 \strokec4 href\cf6 \strokec6 =\cf7 \strokec7 "#contact"\cf6 \strokec6 >\cf5 \strokec5 CONTACT\cf6 \strokec6 </\cf2 \strokec2 a\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3         \cf6 \strokec6 </\cf2 \strokec2 nav\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3     \cf6 \strokec6 </\cf2 \strokec2 div\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\
+\cb3     \cf6 \strokec6 <\cf2 \strokec2 main\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "main-wrapper"\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3         \cf8 \strokec8 <!-- Hero Section -->\cf5 \cb1 \strokec5 \
+\cb3         \cf6 \strokec6 <\cf2 \strokec2 section\cf5 \strokec5  \cf4 \strokec4 id\cf6 \strokec6 =\cf7 \strokec7 "hero"\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "flex items-center justify-center text-center relative overflow-hidden"\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 <\cf2 \strokec2 video\cf5 \strokec5  \cf4 \strokec4 id\cf6 \strokec6 =\cf7 \strokec7 "hero-video"\cf5 \strokec5  \cf4 \strokec4 autoplay\cf5 \strokec5  \cf4 \strokec4 loop\cf5 \strokec5  \cf4 \strokec4 muted\cf5 \strokec5  \cf4 \strokec4 playsinline\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                 \cf6 \strokec6 <\cf2 \strokec2 source\cf5 \strokec5  \cf4 \strokec4 src\cf6 \strokec6 =\cf7 \strokec7 "https://videos.pexels.com/video-files/3129957/3129957-hd_1920_1080_25fps.mp4"\cf5 \strokec5  \cf4 \strokec4 type\cf6 \strokec6 =\cf7 \strokec7 "video/mp4"\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 </\cf2 \strokec2 video\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 <\cf2 \strokec2 div\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "absolute top-0 left-0 w-full h-full bg-black opacity-60 z-0"\cf6 \strokec6 ></\cf2 \strokec2 div\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 <\cf2 \strokec2 div\cf5 \strokec5  \cf4 \strokec4 id\cf6 \strokec6 =\cf7 \strokec7 "hero-content"\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "relative z-10 px-6"\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                 \cf6 \strokec6 <\cf2 \strokec2 h1\cf5 \strokec5  \cf4 \strokec4 id\cf6 \strokec6 =\cf7 \strokec7 "hero-title"\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "text-5xl md:text-7xl font-medium leading-tight mb-4 text-white"\cf6 \strokec6 ></\cf2 \strokec2 h1\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 </\cf2 \strokec2 div\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3         \cf6 \strokec6 </\cf2 \strokec2 section\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\
+\cb3         \cf6 \strokec6 <\cf2 \strokec2 div\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "container"\cf5 \strokec5  \cf4 \strokec4 id\cf6 \strokec6 =\cf7 \strokec7 "how-i-work"\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 <\cf2 \strokec2 div\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "page-grid"\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                 \cf8 \strokec8 <!-- Column 1, Row 1-2: Rotated Side Section Indicator -->\cf5 \cb1 \strokec5 \
+\cb3                 \cf6 \strokec6 <\cf2 \strokec2 div\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "side-rotated-indicator"\cf6 \strokec6 >\cf5 \strokec5 HOW I WORK\cf6 \strokec6 </\cf2 \strokec2 div\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\
+\cb3                 \cf8 \strokec8 <!-- Column 2-3, Row 1: Main Title -->\cf5 \cb1 \strokec5 \
+\cb3                 \cf6 \strokec6 <\cf2 \strokec2 div\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "main-title-wrapper"\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                     \cf6 \strokec6 <\cf2 \strokec2 h2\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "main-title"\cf6 \strokec6 >\cf5 \strokec5 \uc0\u51200 \u45716 \cf6 \strokec6 <\cf2 \strokec2 br\cf6 \strokec6 >\cf5 \strokec5 \uc0\u51060 \u47111 \u44172  \u51068 \u54633 \u45768 \u45796 \cf6 \strokec6 </\cf2 \strokec2 h2\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                 \cf6 \strokec6 </\cf2 \strokec2 div\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\
+\cb3                 \cf8 \strokec8 <!-- Column 2, Row 2: Sticky Navigation -->\cf5 \cb1 \strokec5 \
+\cb3                 \cf6 \strokec6 <\cf2 \strokec2 div\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "sticky-column"\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                     \cf6 \strokec6 <\cf2 \strokec2 nav\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "sticky-nav"\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                         \cf6 \strokec6 <\cf2 \strokec2 a\cf5 \strokec5  \cf4 \strokec4 href\cf6 \strokec6 =\cf7 \strokec7 "#section-1"\cf5 \strokec5  \cf4 \strokec4 data-target\cf6 \strokec6 =\cf7 \strokec7 "section-1"\cf6 \strokec6 >\cf5 \strokec5 \uc0\u51593 \u49884  \u54620 \u45796 . \u48152 \u46300 \u49884  \u54620 \u45796 . \u46112  \u46412 \u44620 \u51648 .\cf6 \strokec6 </\cf2 \strokec2 a\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                         \cf6 \strokec6 <\cf2 \strokec2 a\cf5 \strokec5  \cf4 \strokec4 href\cf6 \strokec6 =\cf7 \strokec7 "#section-2"\cf5 \strokec5  \cf4 \strokec4 data-target\cf6 \strokec6 =\cf7 \strokec7 "section-2"\cf6 \strokec6 >\cf5 \strokec5 \uc0\u45796 \u47476 \u44172  \u48376 \u45796 . \u49352 \u47213 \u44172  \u54396 \u45796 . \u45224 \u45796 \u47476 \u44172  \u47564 \u46304 \u45796 .\cf6 \strokec6 </\cf2 \strokec2 a\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                         \cf6 \strokec6 <\cf2 \strokec2 a\cf5 \strokec5  \cf4 \strokec4 href\cf6 \strokec6 =\cf7 \strokec7 "#section-3"\cf5 \strokec5  \cf4 \strokec4 data-target\cf6 \strokec6 =\cf7 \strokec7 "section-3"\cf6 \strokec6 >\cf5 \strokec5 \uc0\u47931 \u45716 \u45796 . \u54028 \u44256 \u46304 \u45796 . \u45813 \u51012  \u52286 \u45716 \u45796 .\cf6 \strokec6 </\cf2 \strokec2 a\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                         \cf6 \strokec6 <\cf2 \strokec2 a\cf5 \strokec5  \cf4 \strokec4 href\cf6 \strokec6 =\cf7 \strokec7 "#section-4"\cf5 \strokec5  \cf4 \strokec4 data-target\cf6 \strokec6 =\cf7 \strokec7 "section-4"\cf6 \strokec6 >\cf5 \strokec5 \uc0\u54632 \u44760  \u54620 \u45796 . \u45908 \u54620 \u45796 . \u44057 \u51060  \u49457 \u51109 \u54620 \u45796 .\cf6 \strokec6 </\cf2 \strokec2 a\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                     \cf6 \strokec6 </\cf2 \strokec2 nav\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                 \cf6 \strokec6 </\cf2 \strokec2 div\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\
+\cb3                 \cf6 \strokec6 <\cf2 \strokec2 div\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "content-column"\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                     \cf6 \strokec6 <\cf2 \strokec2 section\cf5 \strokec5  \cf4 \strokec4 id\cf6 \strokec6 =\cf7 \strokec7 "section-1"\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "content-section"\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                         \cf6 \strokec6 <\cf2 \strokec2 div\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "mb-8 w-full aspect-video overflow-hidden rounded-lg"\cf6 \strokec6 ><\cf2 \strokec2 img\cf5 \strokec5  \cf4 \strokec4 src\cf6 \strokec6 =\cf7 \strokec7 "https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"\cf5 \strokec5  \cf4 \strokec4 alt\cf6 \strokec6 =\cf7 \strokec7 "\uc0\u49892 \u54665 \u47141  \u51060 \u48120 \u51648 "\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "w-full h-full object-cover"\cf5 \strokec5  \cf4 \strokec4 loading\cf6 \strokec6 =\cf7 \strokec7 "lazy"\cf6 \strokec6 ></\cf2 \strokec2 div\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                         \cf6 \strokec6 <\cf2 \strokec2 h3\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "content-title"\cf6 \strokec6 >\cf5 \strokec5 \uc0\u51593 \u49884  \u54620 \u45796 . \u48152 \u46300 \u49884  \u54620 \u45796 . \u46112  \u46412 \u44620 \u51648 .\cf6 \strokec6 </\cf2 \strokec2 h3\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                         \cf6 \strokec6 <\cf2 \strokec2 p\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "content-body"\cf6 \strokec6 >\cf5 \strokec5 \uc0\u47588  \u49692 \u44036  \u47581 \u49444 \u51076  \u50630 \u51060  \u49892 \u54665 \u54633 \u45768 \u45796 . \u45149 \u44620 \u51648  \u44208 \u44284 \u47484  \u47564 \u46308 \u50612 \u45253 \u45768 \u45796 .\cf6 \strokec6 </\cf2 \strokec2 p\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                     \cf6 \strokec6 </\cf2 \strokec2 section\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                     \cf6 \strokec6 <\cf2 \strokec2 section\cf5 \strokec5  \cf4 \strokec4 id\cf6 \strokec6 =\cf7 \strokec7 "section-2"\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "content-section"\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                         \cf6 \strokec6 <\cf2 \strokec2 div\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "mb-8 w-full aspect-video overflow-hidden rounded-lg"\cf6 \strokec6 ><\cf2 \strokec2 img\cf5 \strokec5  \cf4 \strokec4 src\cf6 \strokec6 =\cf7 \strokec7 "https://images.pexels.com/photos/1103970/pexels-photo-1103970.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"\cf5 \strokec5  \cf4 \strokec4 alt\cf6 \strokec6 =\cf7 \strokec7 "\uc0\u44288 \u51216  \u51060 \u48120 \u51648 "\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "w-full h-full object-cover"\cf5 \strokec5  \cf4 \strokec4 loading\cf6 \strokec6 =\cf7 \strokec7 "lazy"\cf6 \strokec6 ></\cf2 \strokec2 div\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                         \cf6 \strokec6 <\cf2 \strokec2 h3\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "content-title"\cf6 \strokec6 >\cf5 \strokec5 \uc0\u45796 \u47476 \u44172  \u48376 \u45796 . \u49352 \u47213 \u44172  \u54396 \u45796 . \u45224 \u45796 \u47476 \u44172  \u47564 \u46304 \u45796 .\cf6 \strokec6 </\cf2 \strokec2 h3\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                         \cf6 \strokec6 <\cf2 \strokec2 p\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "content-body"\cf6 \strokec6 >\cf5 \strokec5 \uc0\u51061 \u49689 \u54632 \u51012  \u44648 \u44256  \u49352 \u47196 \u50868  \u49884 \u44033 \u51004 \u47196  \u51217 \u44540 \u54633 \u45768 \u45796 . \u52264 \u48324 \u54868 \u46108  \u54644 \u45813 \u51012  \u47564 \u46308 \u50612 \u45253 \u45768 \u45796 .\cf6 \strokec6 </\cf2 \strokec2 p\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                     \cf6 \strokec6 </\cf2 \strokec2 section\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                     \cf6 \strokec6 <\cf2 \strokec2 section\cf5 \strokec5  \cf4 \strokec4 id\cf6 \strokec6 =\cf7 \strokec7 "section-3"\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "content-section"\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                         \cf6 \strokec6 <\cf2 \strokec2 div\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "mb-8 w-full aspect-video overflow-hidden rounded-lg"\cf6 \strokec6 ><\cf2 \strokec2 img\cf5 \strokec5  \cf4 \strokec4 src\cf6 \strokec6 =\cf7 \strokec7 "https://images.pexels.com/photos/212286/pexels-photo-212286.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"\cf5 \strokec5  \cf4 \strokec4 alt\cf6 \strokec6 =\cf7 \strokec7 "\uc0\u51656 \u47928  \u51060 \u48120 \u51648 "\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "w-full h-full object-cover"\cf5 \strokec5  \cf4 \strokec4 loading\cf6 \strokec6 =\cf7 \strokec7 "lazy"\cf6 \strokec6 ></\cf2 \strokec2 div\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                         \cf6 \strokec6 <\cf2 \strokec2 h3\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "content-title"\cf6 \strokec6 >\cf5 \strokec5 \uc0\u47931 \u45716 \u45796 . \u54028 \u44256 \u46304 \u45796 . \u45813 \u51012  \u52286 \u45716 \u45796 .\cf6 \strokec6 </\cf2 \strokec2 h3\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                         \cf6 \strokec6 <\cf2 \strokec2 p\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "content-body"\cf6 \strokec6 >\cf5 \strokec5 \uc0\u49828 \u49828 \u47196 \u50640 \u44172  \u45130 \u51076 \u50630 \u51060  \u51656 \u47928 \u54633 \u45768 \u45796 . \u48376 \u51656 \u51012  \u54028 \u44256 \u46308 \u50612  \u54644 \u45813 \u51012  \u52286 \u50500 \u45253 \u45768 \u45796 .\cf6 \strokec6 </\cf2 \strokec2 p\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                     \cf6 \strokec6 </\cf2 \strokec2 section\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                     \cf6 \strokec6 <\cf2 \strokec2 section\cf5 \strokec5  \cf4 \strokec4 id\cf6 \strokec6 =\cf7 \strokec7 "section-4"\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "content-section"\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                         \cf6 \strokec6 <\cf2 \strokec2 div\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "mb-8 w-full aspect-video overflow-hidden rounded-lg"\cf6 \strokec6 ><\cf2 \strokec2 img\cf5 \strokec5  \cf4 \strokec4 src\cf6 \strokec6 =\cf7 \strokec7 "https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"\cf5 \strokec5  \cf4 \strokec4 alt\cf6 \strokec6 =\cf7 \strokec7 "\uc0\u54801 \u50629  \u51060 \u48120 \u51648 "\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "w-full h-full object-cover"\cf5 \strokec5  \cf4 \strokec4 loading\cf6 \strokec6 =\cf7 \strokec7 "lazy"\cf6 \strokec6 ></\cf2 \strokec2 div\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                         \cf6 \strokec6 <\cf2 \strokec2 h3\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "content-title"\cf6 \strokec6 >\cf5 \strokec5 \uc0\u54632 \u44760  \u54620 \u45796 . \u45908 \u54620 \u45796 . \u44057 \u51060  \u49457 \u51109 \u54620 \u45796 .\cf6 \strokec6 </\cf2 \strokec2 h3\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                         \cf6 \strokec6 <\cf2 \strokec2 p\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "content-body"\cf6 \strokec6 >\cf5 \strokec5 \uc0\u46041 \u47308 \u50752  \u54801 \u47141 \u54644  \u45908  \u53360  \u49884 \u45320 \u51648 \u47484  \u47564 \u46317 \u45768 \u45796 . \u54632 \u44760  \u49457 \u51109 \u54616 \u45716  \u47928 \u54868 \u47484  \u47564 \u46317 \u45768 \u45796 .\cf6 \strokec6 </\cf2 \strokec2 p\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                     \cf6 \strokec6 </\cf2 \strokec2 section\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                 \cf6 \strokec6 </\cf2 \strokec2 div\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 </\cf2 \strokec2 div\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\
+\cb3             \cf8 \strokec8 <!-- Projects Section -->\cf5 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 <\cf2 \strokec2 section\cf5 \strokec5  \cf4 \strokec4 id\cf6 \strokec6 =\cf7 \strokec7 "projects-section"\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                  \cf6 \strokec6 <\cf2 \strokec2 h2\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "text-4xl md:text-5xl font-bold mb-8 text-center"\cf6 \strokec6 >\cf5 \strokec5 PROJECTS\cf6 \strokec6 </\cf2 \strokec2 h2\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                  \cf6 \strokec6 <\cf2 \strokec2 div\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "relative"\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                     \cf6 \strokec6 <\cf2 \strokec2 div\cf5 \strokec5  \cf4 \strokec4 id\cf6 \strokec6 =\cf7 \strokec7 "projects-container"\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                         \cf6 \strokec6 <\cf2 \strokec2 div\cf5 \strokec5  \cf4 \strokec4 id\cf6 \strokec6 =\cf7 \strokec7 "projects-wrapper"\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                             \cf6 \strokec6 <\cf2 \strokec2 div\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "project-card flex-none w-[80vw] lg:w-[380px]"\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                                 \cf6 \strokec6 <\cf2 \strokec2 div\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "w-full aspect-video overflow-hidden"\cf6 \strokec6 ><\cf2 \strokec2 img\cf5 \strokec5  \cf4 \strokec4 src\cf6 \strokec6 =\cf7 \strokec7 "https://placehold.co/600x400/1A202C/FEE500?text=F:it+Service"\cf5 \strokec5  \cf4 \strokec4 alt\cf6 \strokec6 =\cf7 \strokec7 "F:it \uc0\u49436 \u48708 \u49828  \u50040 \u45348 \u51068 "\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "w-full h-full object-cover"\cf5 \strokec5  \cf4 \strokec4 loading\cf6 \strokec6 =\cf7 \strokec7 "lazy"\cf6 \strokec6 ></\cf2 \strokec2 div\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                                 \cf6 \strokec6 <\cf2 \strokec2 div\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "p-6"\cf6 \strokec6 ><\cf2 \strokec2 h3\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "text-xl font-medium mb-2 text-white"\cf6 \strokec6 >\cf5 \strokec5 \uc0\u44396 \u46021 \u54805  IT \u49436 \u48708 \u49828  'F:it' \u47088 \u52845 \cf6 \strokec6 </\cf2 \strokec2 h3\cf6 \strokec6 ><\cf2 \strokec2 p\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "text-gray-400 text-sm"\cf6 \strokec6 >\cf5 \strokec5 B2B \uc0\u44256 \u44061 \u51012  \u50948 \u54620  IT \u51064 \u54532 \u46972  \u44396 \u46021  \u49436 \u48708 \u49828 \u47484  \u44592 \u54925 , 1\u48516 \u44592  \u47564 \u50640  12\u44060  \u49828 \u53440 \u53944 \u50629  \u44256 \u44061 \u49324 \u47484  \u50976 \u52824 \u54664 \u49845 \u45768 \u45796 .\cf6 \strokec6 </\cf2 \strokec2 p\cf6 \strokec6 ></\cf2 \strokec2 div\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                             \cf6 \strokec6 </\cf2 \strokec2 div\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                              \cf6 \strokec6 <\cf2 \strokec2 div\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "project-card flex-none w-[80vw] lg:w-[380px]"\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                                 \cf6 \strokec6 <\cf2 \strokec2 div\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "w-full aspect-video overflow-hidden"\cf6 \strokec6 ><\cf2 \strokec2 img\cf5 \strokec5  \cf4 \strokec4 src\cf6 \strokec6 =\cf7 \strokec7 "https://placehold.co/600x400/2D3748/FEE500?text=SaaS+Platform"\cf5 \strokec5  \cf4 \strokec4 alt\cf6 \strokec6 =\cf7 \strokec7 "SaaS \uc0\u54540 \u47019 \u54268  \u50040 \u45348 \u51068 "\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "w-full h-full object-cover"\cf5 \strokec5  \cf4 \strokec4 loading\cf6 \strokec6 =\cf7 \strokec7 "lazy"\cf6 \strokec6 ></\cf2 \strokec2 div\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                                 \cf6 \strokec6 <\cf2 \strokec2 div\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "p-6"\cf6 \strokec6 ><\cf2 \strokec2 h3\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "text-xl font-medium mb-2 text-white"\cf6 \strokec6 >\cf5 \strokec5 SaaS \uc0\u44288 \u47532  \u54540 \u47019 \u54268  'MEGA F:it' \u44060 \u48156 \cf6 \strokec6 </\cf2 \strokec2 h3\cf6 \strokec6 ><\cf2 \strokec2 p\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "text-gray-400 text-sm"\cf6 \strokec6 >\cf5 \strokec5 \uc0\u44256 \u44061  \u45768 \u51592 \u50640  \u47582 \u52632  \u44396 \u46021  \u47588 \u45768 \u51648 \u47676 \u53944  \u54540 \u47019 \u54268 \u51012  \u44592 \u54925 \u54616 \u44256  Super Admin, Provider, End User \u54252 \u53560 \u51012  \u49444 \u44228 \u54664 \u49845 \u45768 \u45796 .\cf6 \strokec6 </\cf2 \strokec2 p\cf6 \strokec6 ></\cf2 \strokec2 div\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                             \cf6 \strokec6 </\cf2 \strokec2 div\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                             \cf6 \strokec6 <\cf2 \strokec2 div\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "project-card flex-none w-[80vw] lg:w-[380px]"\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                                 \cf6 \strokec6 <\cf2 \strokec2 div\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "w-full aspect-video overflow-hidden"\cf6 \strokec6 ><\cf2 \strokec2 img\cf5 \strokec5  \cf4 \strokec4 src\cf6 \strokec6 =\cf7 \strokec7 "https://placehold.co/600x400/1A202C/FEE500?text=AI+Tool"\cf5 \strokec5  \cf4 \strokec4 alt\cf6 \strokec6 =\cf7 \strokec7 "AI Tool \uc0\u50040 \u45348 \u51068 "\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "w-full h-full object-cover"\cf5 \strokec5  \cf4 \strokec4 loading\cf6 \strokec6 =\cf7 \strokec7 "lazy"\cf6 \strokec6 ></\cf2 \strokec2 div\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                                 \cf6 \strokec6 <\cf2 \strokec2 div\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "p-6"\cf6 \strokec6 ><\cf2 \strokec2 h3\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "text-xl font-medium mb-2 text-white"\cf6 \strokec6 >\cf5 \strokec5 '\uc0\u45236  \u49552 \u50504 \u50640  \u54532 \u47532 \u49464 \u51068 \u51592 ' \u44592 \u54925 \cf6 \strokec6 </\cf2 \strokec2 h3\cf6 \strokec6 ><\cf2 \strokec2 p\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "text-gray-400 text-sm"\cf6 \strokec6 >\cf5 \strokec5 AI \uc0\u44592 \u48152  \u51088 \u47308  \u51456 \u48708  \u48143  \u44160 \u49353  \u54532 \u47196 \u49464 \u49828 \u47484  \u44592 \u54925 \u54616 \u50668  \u50689 \u50629  \u45812 \u45817 \u51088 \u51032  \u50629 \u47924  \u49373 \u49328 \u49457 \u44284  \u51204 \u47928 \u49457 \u51012  \u45458 \u50688 \u49845 \u45768 \u45796 .\cf6 \strokec6 </\cf2 \strokec2 p\cf6 \strokec6 ></\cf2 \strokec2 div\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                             \cf6 \strokec6 </\cf2 \strokec2 div\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                         \cf6 \strokec6 </\cf2 \strokec2 div\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                     \cf6 \strokec6 </\cf2 \strokec2 div\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                     \cf8 \strokec8 <!-- Navigation Buttons for Mobile -->\cf5 \cb1 \strokec5 \
+\cb3                     \cf6 \strokec6 <\cf2 \strokec2 div\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "lg:hidden absolute inset-0 flex items-center justify-between px-0 pointer-events-none"\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                         \cf6 \strokec6 <\cf2 \strokec2 button\cf5 \strokec5  \cf4 \strokec4 id\cf6 \strokec6 =\cf7 \strokec7 "scroll-left"\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "bg-white/20 backdrop-blur-sm p-2 rounded-full pointer-events-auto"\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                             \cf6 \strokec6 <\cf2 \strokec2 svg\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "w-6 h-6 text-white"\cf5 \strokec5  \cf4 \strokec4 fill\cf6 \strokec6 =\cf7 \strokec7 "none"\cf5 \strokec5  \cf4 \strokec4 stroke\cf6 \strokec6 =\cf7 \strokec7 "currentColor"\cf5 \strokec5  \cf4 \strokec4 viewBox\cf6 \strokec6 =\cf7 \strokec7 "0 0 24 24"\cf5 \strokec5  \cf4 \strokec4 xmlns\cf6 \strokec6 =\cf7 \strokec7 "http://www.w3.org/2000/svg"\cf6 \strokec6 ><\cf2 \strokec2 path\cf5 \strokec5  \cf4 \strokec4 stroke-linecap\cf6 \strokec6 =\cf7 \strokec7 "round"\cf5 \strokec5  \cf4 \strokec4 stroke-linejoin\cf6 \strokec6 =\cf7 \strokec7 "round"\cf5 \strokec5  \cf4 \strokec4 stroke-width\cf6 \strokec6 =\cf7 \strokec7 "2"\cf5 \strokec5  \cf4 \strokec4 d\cf6 \strokec6 =\cf7 \strokec7 "M15 19l-7-7 7-7"\cf6 \strokec6 ></\cf2 \strokec2 path\cf6 \strokec6 ></\cf2 \strokec2 svg\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                         \cf6 \strokec6 </\cf2 \strokec2 button\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                         \cf6 \strokec6 <\cf2 \strokec2 button\cf5 \strokec5  \cf4 \strokec4 id\cf6 \strokec6 =\cf7 \strokec7 "scroll-right"\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "bg-white/20 backdrop-blur-sm p-2 rounded-full pointer-events-auto"\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                             \cf6 \strokec6 <\cf2 \strokec2 svg\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "w-6 h-6 text-white"\cf5 \strokec5  \cf4 \strokec4 fill\cf6 \strokec6 =\cf7 \strokec7 "none"\cf5 \strokec5  \cf4 \strokec4 stroke\cf6 \strokec6 =\cf7 \strokec7 "currentColor"\cf5 \strokec5  \cf4 \strokec4 viewBox\cf6 \strokec6 =\cf7 \strokec7 "0 0 24 24"\cf5 \strokec5  \cf4 \strokec4 xmlns\cf6 \strokec6 =\cf7 \strokec7 "http://www.w3.org/2000/svg"\cf6 \strokec6 ><\cf2 \strokec2 path\cf5 \strokec5  \cf4 \strokec4 stroke-linecap\cf6 \strokec6 =\cf7 \strokec7 "round"\cf5 \strokec5  \cf4 \strokec4 stroke-linejoin\cf6 \strokec6 =\cf7 \strokec7 "round"\cf5 \strokec5  \cf4 \strokec4 stroke-width\cf6 \strokec6 =\cf7 \strokec7 "2"\cf5 \strokec5  \cf4 \strokec4 d\cf6 \strokec6 =\cf7 \strokec7 "M9 5l7 7-7 7"\cf6 \strokec6 ></\cf2 \strokec2 path\cf6 \strokec6 ></\cf2 \strokec2 svg\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                         \cf6 \strokec6 </\cf2 \strokec2 button\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                     \cf6 \strokec6 </\cf2 \strokec2 div\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                 \cf6 \strokec6 </\cf2 \strokec2 div\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 </\cf2 \strokec2 section\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3         \cf6 \strokec6 </\cf2 \strokec2 div\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\
+\cb3         \cf8 \strokec8 <!-- Contact Section -->\cf5 \cb1 \strokec5 \
+\cb3         \cf6 \strokec6 <\cf2 \strokec2 section\cf5 \strokec5  \cf4 \strokec4 id\cf6 \strokec6 =\cf7 \strokec7 "contact"\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "h-screen flex flex-col items-center justify-center text-center"\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 <\cf2 \strokec2 h2\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "text-4xl font-medium mb-4"\cf6 \strokec6 >\cf5 \strokec5 CONTACT\cf6 \strokec6 </\cf2 \strokec2 h2\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 <\cf2 \strokec2 p\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "text-lg text-gray-300 mb-8"\cf6 \strokec6 >\cf5 \strokec5 \uc0\u54200 \u47532 \u54632 \u44284  \u44592 \u49696 \u51012  \u54616 \u45208 \u47196  \u47564 \u46300 \u45716  \u44221 \u54744 , \u54632 \u44760 \u54616 \u44256  \u49910 \u49845 \u45768 \u45796 .\cf6 \strokec6 <\cf2 \strokec2 br\cf6 \strokec6 >\cf5 \strokec5 \uc0\u50616 \u51228 \u46304 \u51648  \u54200 \u54616 \u44172  \u50672 \u46973  \u51452 \u49464 \u50836 .\cf6 \strokec6 </\cf2 \strokec2 p\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 <\cf2 \strokec2 a\cf5 \strokec5  \cf4 \strokec4 href\cf6 \strokec6 =\cf7 \strokec7 "mailto:songdj12@naver.com"\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "bg-yellow-400 text-black font-bold text-lg px-8 py-4 rounded-full hover:opacity-90 transition-opacity duration-300 inline-block magnetic-item"\cf6 \strokec6 >\cf5 \strokec5 songdj12@naver.com\cf6 \strokec6 </\cf2 \strokec2 a\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3         \cf6 \strokec6 </\cf2 \strokec2 section\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3     \cf6 \strokec6 </\cf2 \strokec2 main\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\
+\cb3     \cf6 \strokec6 <\cf2 \strokec2 script\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3         document\cf9 \strokec9 .\cf5 \strokec5 addEventListener\cf9 \strokec9 (\cf10 \strokec10 'DOMContentLoaded'\cf9 \strokec9 ,\cf5 \strokec5  \cf9 \strokec9 ()\cf5 \strokec5  \cf9 \strokec9 =>\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3             \cf12 \strokec12 const\cf5 \strokec5  navLinks \cf9 \strokec9 =\cf5 \strokec5  document\cf9 \strokec9 .\cf5 \strokec5 querySelectorAll\cf9 \strokec9 (\cf10 \strokec10 '.sticky-nav a'\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3             \cf12 \strokec12 const\cf5 \strokec5  sections \cf9 \strokec9 =\cf5 \strokec5  document\cf9 \strokec9 .\cf5 \strokec5 querySelectorAll\cf9 \strokec9 (\cf10 \strokec10 '.content-section'\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3             \cf12 \strokec12 const\cf5 \strokec5  topNavLinks \cf9 \strokec9 =\cf5 \strokec5  document\cf9 \strokec9 .\cf5 \strokec5 querySelectorAll\cf9 \strokec9 (\cf10 \strokec10 '.top-nav a'\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\
+\cb3             \cf12 \strokec12 const\cf5 \strokec5  activateLink \cf9 \strokec9 =\cf5 \strokec5  \cf9 \strokec9 (\cf5 \strokec5 targetId\cf9 \strokec9 )\cf5 \strokec5  \cf9 \strokec9 =>\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                 navLinks\cf9 \strokec9 .\cf5 \strokec5 forEach\cf9 \strokec9 (\cf5 \strokec5 link \cf9 \strokec9 =>\cf5 \strokec5  link\cf9 \strokec9 .\cf5 \strokec5 classList\cf9 \strokec9 .\cf5 \strokec5 remove\cf9 \strokec9 (\cf10 \strokec10 'active'\cf9 \strokec9 ));\cf5 \cb1 \strokec5 \
+\cb3                 \cf12 \strokec12 const\cf5 \strokec5  activeLink \cf9 \strokec9 =\cf5 \strokec5  document\cf9 \strokec9 .\cf5 \strokec5 querySelector\cf9 \strokec9 (\cf10 \strokec10 `.sticky-nav a[data-target="\cf9 \strokec9 $\{\cf5 \strokec5 targetId\cf9 \strokec9 \}\cf10 \strokec10 "]`\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3                 \cf12 \strokec12 if\cf5 \strokec5  \cf9 \strokec9 (\cf5 \strokec5 activeLink\cf9 \strokec9 )\cf5 \strokec5  activeLink\cf9 \strokec9 .\cf5 \strokec5 classList\cf9 \strokec9 .\cf5 \strokec5 add\cf9 \strokec9 (\cf10 \strokec10 'active'\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3             \cf9 \strokec9 \};\cf5 \cb1 \strokec5 \
+\
+\cb3             \cf12 \strokec12 if\cf5 \strokec5  \cf9 \strokec9 (\cf5 \strokec5 window\cf9 \strokec9 .\cf5 \strokec5 innerWidth \cf9 \strokec9 >\cf5 \strokec5  \cf13 \strokec13 1024\cf9 \strokec9 )\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                 \cf12 \strokec12 const\cf5 \strokec5  observer \cf9 \strokec9 =\cf5 \strokec5  \cf12 \strokec12 new\cf5 \strokec5  \cf14 \strokec14 IntersectionObserver\cf9 \strokec9 ((\cf5 \strokec5 entries\cf9 \strokec9 )\cf5 \strokec5  \cf9 \strokec9 =>\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                     entries\cf9 \strokec9 .\cf5 \strokec5 forEach\cf9 \strokec9 (\cf5 \strokec5 entry \cf9 \strokec9 =>\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                         \cf12 \strokec12 if\cf5 \strokec5  \cf9 \strokec9 (\cf5 \strokec5 entry\cf9 \strokec9 .\cf5 \strokec5 isIntersecting\cf9 \strokec9 )\cf5 \strokec5  activateLink\cf9 \strokec9 (\cf5 \strokec5 entry\cf9 \strokec9 .\cf5 \strokec5 target\cf9 \strokec9 .\cf5 \strokec5 id\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3                     \cf9 \strokec9 \});\cf5 \cb1 \strokec5 \
+\cb3                 \cf9 \strokec9 \},\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \strokec5  rootMargin\cf9 \strokec9 :\cf5 \strokec5  \cf10 \strokec10 '-50% 0px -50% 0px'\cf5 \strokec5  \cf9 \strokec9 \});\cf5 \cb1 \strokec5 \
+\
+\cb3                 sections\cf9 \strokec9 .\cf5 \strokec5 forEach\cf9 \strokec9 (\cf5 \strokec5 section \cf9 \strokec9 =>\cf5 \strokec5  observer\cf9 \strokec9 .\cf5 \strokec5 observe\cf9 \strokec9 (\cf5 \strokec5 section\cf9 \strokec9 ));\cf5 \cb1 \strokec5 \
+\cb3             \cf9 \strokec9 \}\cf5 \cb1 \strokec5 \
+\
+\cb3             \cf12 \strokec12 const\cf5 \strokec5  smoothScroll \cf9 \strokec9 =\cf5 \strokec5  \cf9 \strokec9 (\cf5 \strokec5 e\cf9 \strokec9 )\cf5 \strokec5  \cf9 \strokec9 =>\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                 e\cf9 \strokec9 .\cf5 \strokec5 preventDefault\cf9 \strokec9 ();\cf5 \cb1 \strokec5 \
+\cb3                 \cf12 \strokec12 const\cf5 \strokec5  targetElement \cf9 \strokec9 =\cf5 \strokec5  document\cf9 \strokec9 .\cf5 \strokec5 querySelector\cf9 \strokec9 (\cf5 \strokec5 e\cf9 \strokec9 .\cf5 \strokec5 currentTarget\cf9 \strokec9 .\cf5 \strokec5 getAttribute\cf9 \strokec9 (\cf10 \strokec10 'href'\cf9 \strokec9 ));\cf5 \cb1 \strokec5 \
+\cb3                 \cf12 \strokec12 if\cf5 \strokec5  \cf9 \strokec9 (\cf5 \strokec5 targetElement\cf9 \strokec9 )\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                     \cf12 \strokec12 const\cf5 \strokec5  topNavHeight \cf9 \strokec9 =\cf5 \strokec5  \cf13 \strokec13 60\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3                     \cf12 \strokec12 const\cf5 \strokec5  elementPosition \cf9 \strokec9 =\cf5 \strokec5  targetElement\cf9 \strokec9 .\cf5 \strokec5 getBoundingClientRect\cf9 \strokec9 ().\cf5 \strokec5 top\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3                     \cf12 \strokec12 const\cf5 \strokec5  offsetPosition \cf9 \strokec9 =\cf5 \strokec5  elementPosition \cf9 \strokec9 +\cf5 \strokec5  window\cf9 \strokec9 .\cf5 \strokec5 pageYOffset \cf9 \strokec9 -\cf5 \strokec5  topNavHeight\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3                     \cb1 \
+\cb3                     window\cf9 \strokec9 .\cf5 \strokec5 scrollTo\cf9 \strokec9 (\{\cf5 \cb1 \strokec5 \
+\cb3                         top\cf9 \strokec9 :\cf5 \strokec5  offsetPosition\cf9 \strokec9 ,\cf5 \cb1 \strokec5 \
+\cb3                         behavior\cf9 \strokec9 :\cf5 \strokec5  \cf10 \strokec10 'smooth'\cf5 \cb1 \strokec5 \
+\cb3                     \cf9 \strokec9 \});\cf5 \cb1 \strokec5 \
+\cb3                 \cf9 \strokec9 \}\cf5 \cb1 \strokec5 \
+\cb3             \cf9 \strokec9 \};\cf5 \cb1 \strokec5 \
+\cb3             \cb1 \
+\cb3             \cf12 \strokec12 const\cf5 \strokec5  allLinks \cf9 \strokec9 =\cf5 \strokec5  \cf9 \strokec9 [...\cf5 \strokec5 document\cf9 \strokec9 .\cf5 \strokec5 querySelectorAll\cf9 \strokec9 (\cf10 \strokec10 '.sticky-nav a'\cf9 \strokec9 ),\cf5 \strokec5  \cf9 \strokec9 ...\cf5 \strokec5 topNavLinks\cf9 \strokec9 ];\cf5 \cb1 \strokec5 \
+\cb3             allLinks\cf9 \strokec9 .\cf5 \strokec5 forEach\cf9 \strokec9 (\cf5 \strokec5 link \cf9 \strokec9 =>\cf5 \strokec5  link\cf9 \strokec9 .\cf5 \strokec5 addEventListener\cf9 \strokec9 (\cf10 \strokec10 'click'\cf9 \strokec9 ,\cf5 \strokec5  smoothScroll\cf9 \strokec9 ));\cf5 \cb1 \strokec5 \
+\
+\cb3             \cf8 \strokec8 // Typing animation\cf5 \cb1 \strokec5 \
+\cb3             \cf12 \strokec12 const\cf5 \strokec5  titleElement \cf9 \strokec9 =\cf5 \strokec5  document\cf9 \strokec9 .\cf5 \strokec5 getElementById\cf9 \strokec9 (\cf10 \strokec10 'hero-title'\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3             \cf12 \strokec12 const\cf5 \strokec5  line1 \cf9 \strokec9 =\cf5 \strokec5  \cf10 \strokec10 "\uc0\u46041 \u45824 \u47928  \u46020 \u47588 \u49884 \u51109 \u50640 \u49436 \u48512 \u53552 "\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3             \cf12 \strokec12 const\cf5 \strokec5  line2 \cf9 \strokec9 =\cf5 \strokec5  \cf10 \strokec10 "IT \uc0\u49436 \u48708 \u49828  \u44592 \u54925 \u51088 \u47196 "\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3             \cf12 \strokec12 const\cf5 \strokec5  line2_class \cf9 \strokec9 =\cf5 \strokec5  \cf10 \strokec10 "gradient-text font-semibold"\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3             titleElement\cf9 \strokec9 .\cf5 \strokec5 innerHTML \cf9 \strokec9 =\cf5 \strokec5  \cf10 \strokec10 `\cf9 \strokec9 $\{\cf5 \strokec5 line1\cf9 \strokec9 .\cf5 \strokec5 split\cf9 \strokec9 (\cf10 \strokec10 ''\cf9 \strokec9 ).\cf5 \strokec5 map\cf9 \strokec9 (\cf5 \strokec5 c \cf9 \strokec9 =>\cf5 \strokec5  \cf10 \strokec10 `<span>\cf9 \strokec9 $\{\cf5 \strokec5 c\cf9 \strokec9 \}\cf10 \strokec10 </span>`\cf9 \strokec9 ).\cf5 \strokec5 join\cf9 \strokec9 (\cf10 \strokec10 ''\cf9 \strokec9 )\}\cf10 \strokec10 <br>\cf9 \strokec9 $\{\cf5 \strokec5 line2\cf9 \strokec9 .\cf5 \strokec5 split\cf9 \strokec9 (\cf10 \strokec10 ''\cf9 \strokec9 ).\cf5 \strokec5 map\cf9 \strokec9 (\cf5 \strokec5 c \cf9 \strokec9 =>\cf5 \strokec5  \cf10 \strokec10 `<span class="\cf9 \strokec9 $\{\cf5 \strokec5 line2_class\cf9 \strokec9 \}\cf10 \strokec10 ">\cf9 \strokec9 $\{\cf5 \strokec5 c\cf9 \strokec9 \}\cf10 \strokec10 </span>`\cf9 \strokec9 ).\cf5 \strokec5 join\cf9 \strokec9 (\cf10 \strokec10 ''\cf9 \strokec9 )\}\cf10 \strokec10 `\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3             titleElement\cf9 \strokec9 .\cf5 \strokec5 querySelectorAll\cf9 \strokec9 (\cf10 \strokec10 'span'\cf9 \strokec9 ).\cf5 \strokec5 forEach\cf9 \strokec9 ((\cf5 \strokec5 span\cf9 \strokec9 ,\cf5 \strokec5  index\cf9 \strokec9 )\cf5 \strokec5  \cf9 \strokec9 =>\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                 setTimeout\cf9 \strokec9 (()\cf5 \strokec5  \cf9 \strokec9 =>\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                     span\cf9 \strokec9 .\cf5 \strokec5 style\cf9 \strokec9 .\cf5 \strokec5 opacity \cf9 \strokec9 =\cf5 \strokec5  \cf10 \strokec10 '1'\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3                     span\cf9 \strokec9 .\cf5 \strokec5 style\cf9 \strokec9 .\cf5 \strokec5 transform \cf9 \strokec9 =\cf5 \strokec5  \cf10 \strokec10 'translateY(0)'\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3                 \cf9 \strokec9 \},\cf5 \strokec5  index \cf9 \strokec9 *\cf5 \strokec5  \cf13 \strokec13 50\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3             \cf9 \strokec9 \});\cf5 \cb1 \strokec5 \
+\
+\cb3             \cf8 \strokec8 // Horizontal scroll for projects\cf5 \cb1 \strokec5 \
+\cb3             \cf12 \strokec12 const\cf5 \strokec5  projectsContainer \cf9 \strokec9 =\cf5 \strokec5  document\cf9 \strokec9 .\cf5 \strokec5 getElementById\cf9 \strokec9 (\cf10 \strokec10 'projects-container'\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3             \cf12 \strokec12 if\cf5 \strokec5  \cf9 \strokec9 (\cf5 \strokec5 projectsContainer \cf9 \strokec9 &&\cf5 \strokec5  window\cf9 \strokec9 .\cf5 \strokec5 innerWidth \cf9 \strokec9 >\cf5 \strokec5  \cf13 \strokec13 1024\cf9 \strokec9 )\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                 projectsContainer\cf9 \strokec9 .\cf5 \strokec5 addEventListener\cf9 \strokec9 (\cf10 \strokec10 'wheel'\cf9 \strokec9 ,\cf5 \strokec5  \cf9 \strokec9 (\cf5 \strokec5 evt\cf9 \strokec9 )\cf5 \strokec5  \cf9 \strokec9 =>\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                     evt\cf9 \strokec9 .\cf5 \strokec5 preventDefault\cf9 \strokec9 ();\cf5 \cb1 \strokec5 \
+\cb3                     projectsContainer\cf9 \strokec9 .\cf5 \strokec5 scrollLeft \cf9 \strokec9 +=\cf5 \strokec5  evt\cf9 \strokec9 .\cf5 \strokec5 deltaY\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3                 \cf9 \strokec9 \});\cf5 \cb1 \strokec5 \
+\cb3             \cf9 \strokec9 \}\cf5 \cb1 \strokec5 \
+\
+\cb3             \cf8 \strokec8 // Mobile Project Scroll Buttons\cf5 \cb1 \strokec5 \
+\cb3             \cf12 \strokec12 const\cf5 \strokec5  scrollLeftBtn \cf9 \strokec9 =\cf5 \strokec5  document\cf9 \strokec9 .\cf5 \strokec5 getElementById\cf9 \strokec9 (\cf10 \strokec10 'scroll-left'\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3             \cf12 \strokec12 const\cf5 \strokec5  scrollRightBtn \cf9 \strokec9 =\cf5 \strokec5  document\cf9 \strokec9 .\cf5 \strokec5 getElementById\cf9 \strokec9 (\cf10 \strokec10 'scroll-right'\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3             \cf12 \strokec12 if\cf9 \strokec9 (\cf5 \strokec5 projectsContainer \cf9 \strokec9 &&\cf5 \strokec5  scrollLeftBtn \cf9 \strokec9 &&\cf5 \strokec5  scrollRightBtn\cf9 \strokec9 )\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                 \cf12 \strokec12 const\cf5 \strokec5  scrollAmount \cf9 \strokec9 =\cf5 \strokec5  \cf9 \strokec9 ()\cf5 \strokec5  \cf9 \strokec9 =>\cf5 \strokec5  projectsContainer\cf9 \strokec9 .\cf5 \strokec5 clientWidth \cf9 \strokec9 *\cf5 \strokec5  \cf13 \strokec13 0.85\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3                 scrollLeftBtn\cf9 \strokec9 .\cf5 \strokec5 addEventListener\cf9 \strokec9 (\cf10 \strokec10 'click'\cf9 \strokec9 ,\cf5 \strokec5  \cf9 \strokec9 ()\cf5 \strokec5  \cf9 \strokec9 =>\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                     projectsContainer\cf9 \strokec9 .\cf5 \strokec5 scrollBy\cf9 \strokec9 (\{\cf5 \strokec5  left\cf9 \strokec9 :\cf5 \strokec5  \cf9 \strokec9 -\cf5 \strokec5 scrollAmount\cf9 \strokec9 (),\cf5 \strokec5  behavior\cf9 \strokec9 :\cf5 \strokec5  \cf10 \strokec10 'smooth'\cf5 \strokec5  \cf9 \strokec9 \});\cf5 \cb1 \strokec5 \
+\cb3                 \cf9 \strokec9 \});\cf5 \cb1 \strokec5 \
+\cb3                 scrollRightBtn\cf9 \strokec9 .\cf5 \strokec5 addEventListener\cf9 \strokec9 (\cf10 \strokec10 'click'\cf9 \strokec9 ,\cf5 \strokec5  \cf9 \strokec9 ()\cf5 \strokec5  \cf9 \strokec9 =>\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                     projectsContainer\cf9 \strokec9 .\cf5 \strokec5 scrollBy\cf9 \strokec9 (\{\cf5 \strokec5  left\cf9 \strokec9 :\cf5 \strokec5  scrollAmount\cf9 \strokec9 (),\cf5 \strokec5  behavior\cf9 \strokec9 :\cf5 \strokec5  \cf10 \strokec10 'smooth'\cf5 \strokec5  \cf9 \strokec9 \});\cf5 \cb1 \strokec5 \
+\cb3                 \cf9 \strokec9 \});\cf5 \cb1 \strokec5 \
+\cb3             \cf9 \strokec9 \}\cf5 \cb1 \strokec5 \
+\cb3             \cb1 \
+\cb3             \cf8 \strokec8 // Custom Cursor\cf5 \cb1 \strokec5 \
+\cb3             \cf12 \strokec12 if\cf5 \strokec5  \cf9 \strokec9 (\cf5 \strokec5 window\cf9 \strokec9 .\cf5 \strokec5 innerWidth \cf9 \strokec9 >\cf5 \strokec5  \cf13 \strokec13 1024\cf9 \strokec9 )\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                 \cf12 \strokec12 const\cf5 \strokec5  cursorDot \cf9 \strokec9 =\cf5 \strokec5  document\cf9 \strokec9 .\cf5 \strokec5 querySelector\cf9 \strokec9 (\cf10 \strokec10 '.cursor-dot'\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3                 \cf12 \strokec12 const\cf5 \strokec5  cursorOutline \cf9 \strokec9 =\cf5 \strokec5  document\cf9 \strokec9 .\cf5 \strokec5 querySelector\cf9 \strokec9 (\cf10 \strokec10 '.cursor-outline'\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3                 window\cf9 \strokec9 .\cf5 \strokec5 addEventListener\cf9 \strokec9 (\cf10 \strokec10 'mousemove'\cf9 \strokec9 ,\cf5 \strokec5  \cf9 \strokec9 (\cf5 \strokec5 e\cf9 \strokec9 )\cf5 \strokec5  \cf9 \strokec9 =>\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                     \cf12 \strokec12 const\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \strokec5  clientX\cf9 \strokec9 :\cf5 \strokec5  x\cf9 \strokec9 ,\cf5 \strokec5  clientY\cf9 \strokec9 :\cf5 \strokec5  y \cf9 \strokec9 \}\cf5 \strokec5  \cf9 \strokec9 =\cf5 \strokec5  e\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3                     cursorDot\cf9 \strokec9 .\cf5 \strokec5 style\cf9 \strokec9 .\cf5 \strokec5 transform \cf9 \strokec9 =\cf5 \strokec5  \cf10 \strokec10 `translate(\cf9 \strokec9 $\{\cf5 \strokec5 x\cf9 \strokec9 \}\cf10 \strokec10 px, \cf9 \strokec9 $\{\cf5 \strokec5 y\cf9 \strokec9 \}\cf10 \strokec10 px)`\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3                     cursorOutline\cf9 \strokec9 .\cf5 \strokec5 style\cf9 \strokec9 .\cf5 \strokec5 transform \cf9 \strokec9 =\cf5 \strokec5  \cf10 \strokec10 `translate(\cf9 \strokec9 $\{\cf5 \strokec5 x \cf9 \strokec9 -\cf5 \strokec5  \cf13 \strokec13 16\cf9 \strokec9 \}\cf10 \strokec10 px, \cf9 \strokec9 $\{\cf5 \strokec5 y \cf9 \strokec9 -\cf5 \strokec5  \cf13 \strokec13 16\cf9 \strokec9 \}\cf10 \strokec10 px)`\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3                 \cf9 \strokec9 \});\cf5 \cb1 \strokec5 \
+\cb3             \cf9 \strokec9 \}\cf5 \cb1 \strokec5 \
+\
+\cb3             \cf8 \strokec8 // Magnetic Effect\cf5 \cb1 \strokec5 \
+\cb3             \cf12 \strokec12 if\cf5 \strokec5  \cf9 \strokec9 (\cf5 \strokec5 window\cf9 \strokec9 .\cf5 \strokec5 innerWidth \cf9 \strokec9 >\cf5 \strokec5  \cf13 \strokec13 1024\cf9 \strokec9 )\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                 \cf12 \strokec12 const\cf5 \strokec5  magneticItems \cf9 \strokec9 =\cf5 \strokec5  document\cf9 \strokec9 .\cf5 \strokec5 querySelectorAll\cf9 \strokec9 (\cf10 \strokec10 '.magnetic-item'\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3                 magneticItems\cf9 \strokec9 .\cf5 \strokec5 forEach\cf9 \strokec9 (\cf5 \strokec5 item \cf9 \strokec9 =>\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                     item\cf9 \strokec9 .\cf5 \strokec5 addEventListener\cf9 \strokec9 (\cf10 \strokec10 'mousemove'\cf9 \strokec9 ,\cf5 \strokec5  \cf12 \strokec12 function\cf9 \strokec9 (\cf5 \strokec5 e\cf9 \strokec9 )\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                         \cf12 \strokec12 const\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \strokec5  clientX\cf9 \strokec9 ,\cf5 \strokec5  clientY \cf9 \strokec9 \}\cf5 \strokec5  \cf9 \strokec9 =\cf5 \strokec5  e\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3                         \cf12 \strokec12 const\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \strokec5  left\cf9 \strokec9 ,\cf5 \strokec5  top\cf9 \strokec9 ,\cf5 \strokec5  width\cf9 \strokec9 ,\cf5 \strokec5  height \cf9 \strokec9 \}\cf5 \strokec5  \cf9 \strokec9 =\cf5 \strokec5  \cf12 \strokec12 this\cf9 \strokec9 .\cf5 \strokec5 getBoundingClientRect\cf9 \strokec9 ();\cf5 \cb1 \strokec5 \
+\cb3                         \cf12 \strokec12 const\cf5 \strokec5  x \cf9 \strokec9 =\cf5 \strokec5  \cf9 \strokec9 (\cf5 \strokec5 clientX \cf9 \strokec9 -\cf5 \strokec5  \cf9 \strokec9 (\cf5 \strokec5 left \cf9 \strokec9 +\cf5 \strokec5  width \cf9 \strokec9 /\cf5 \strokec5  \cf13 \strokec13 2\cf9 \strokec9 ))\cf5 \strokec5  \cf9 \strokec9 *\cf5 \strokec5  \cf13 \strokec13 0.4\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3                         \cf12 \strokec12 const\cf5 \strokec5  y \cf9 \strokec9 =\cf5 \strokec5  \cf9 \strokec9 (\cf5 \strokec5 clientY \cf9 \strokec9 -\cf5 \strokec5  \cf9 \strokec9 (\cf5 \strokec5 top \cf9 \strokec9 +\cf5 \strokec5  height \cf9 \strokec9 /\cf5 \strokec5  \cf13 \strokec13 2\cf9 \strokec9 ))\cf5 \strokec5  \cf9 \strokec9 *\cf5 \strokec5  \cf13 \strokec13 0.4\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3                         \cf12 \strokec12 this\cf9 \strokec9 .\cf5 \strokec5 style\cf9 \strokec9 .\cf5 \strokec5 transition \cf9 \strokec9 =\cf5 \strokec5  \cf10 \strokec10 'transform 0.1s ease-out'\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3                         \cf12 \strokec12 this\cf9 \strokec9 .\cf5 \strokec5 style\cf9 \strokec9 .\cf5 \strokec5 transform \cf9 \strokec9 =\cf5 \strokec5  \cf10 \strokec10 `translate(\cf9 \strokec9 $\{\cf5 \strokec5 x\cf9 \strokec9 \}\cf10 \strokec10 px, \cf9 \strokec9 $\{\cf5 \strokec5 y\cf9 \strokec9 \}\cf10 \strokec10 px)`\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3                     \cf9 \strokec9 \});\cf5 \cb1 \strokec5 \
+\cb3                     item\cf9 \strokec9 .\cf5 \strokec5 addEventListener\cf9 \strokec9 (\cf10 \strokec10 'mouseleave'\cf9 \strokec9 ,\cf5 \strokec5  \cf12 \strokec12 function\cf9 \strokec9 ()\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                         \cf12 \strokec12 this\cf9 \strokec9 .\cf5 \strokec5 style\cf9 \strokec9 .\cf5 \strokec5 transition \cf9 \strokec9 =\cf5 \strokec5  \cf10 \strokec10 'transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275)'\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3                         \cf12 \strokec12 this\cf9 \strokec9 .\cf5 \strokec5 style\cf9 \strokec9 .\cf5 \strokec5 transform \cf9 \strokec9 =\cf5 \strokec5  \cf10 \strokec10 'translate(0,0)'\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3                     \cf9 \strokec9 \});\cf5 \cb1 \strokec5 \
+\cb3                 \cf9 \strokec9 \});\cf5 \cb1 \strokec5 \
+\cb3             \cf9 \strokec9 \}\cf5 \cb1 \strokec5 \
+\
+\cb3             \cf8 \strokec8 // Mobile Menu\cf5 \cb1 \strokec5 \
+\cb3             \cf12 \strokec12 const\cf5 \strokec5  hamburgerBtn \cf9 \strokec9 =\cf5 \strokec5  document\cf9 \strokec9 .\cf5 \strokec5 querySelector\cf9 \strokec9 (\cf10 \strokec10 '.hamburger-menu'\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3             \cf12 \strokec12 const\cf5 \strokec5  mobileMenuOverlay \cf9 \strokec9 =\cf5 \strokec5  document\cf9 \strokec9 .\cf5 \strokec5 getElementById\cf9 \strokec9 (\cf10 \strokec10 'mobile-menu-overlay'\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3             \cf12 \strokec12 const\cf5 \strokec5  mobileMenuCloseBtn \cf9 \strokec9 =\cf5 \strokec5  document\cf9 \strokec9 .\cf5 \strokec5 getElementById\cf9 \strokec9 (\cf10 \strokec10 'mobile-menu-close'\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3             \cf12 \strokec12 const\cf5 \strokec5  mobileMenuLinks \cf9 \strokec9 =\cf5 \strokec5  mobileMenuOverlay\cf9 \strokec9 .\cf5 \strokec5 querySelectorAll\cf9 \strokec9 (\cf10 \strokec10 'a'\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\
+\cb3             hamburgerBtn\cf9 \strokec9 .\cf5 \strokec5 addEventListener\cf9 \strokec9 (\cf10 \strokec10 'click'\cf9 \strokec9 ,\cf5 \strokec5  \cf9 \strokec9 ()\cf5 \strokec5  \cf9 \strokec9 =>\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                 mobileMenuOverlay\cf9 \strokec9 .\cf5 \strokec5 classList\cf9 \strokec9 .\cf5 \strokec5 add\cf9 \strokec9 (\cf10 \strokec10 'open'\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3             \cf9 \strokec9 \});\cf5 \cb1 \strokec5 \
+\
+\cb3             mobileMenuCloseBtn\cf9 \strokec9 .\cf5 \strokec5 addEventListener\cf9 \strokec9 (\cf10 \strokec10 'click'\cf9 \strokec9 ,\cf5 \strokec5  \cf9 \strokec9 ()\cf5 \strokec5  \cf9 \strokec9 =>\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                 mobileMenuOverlay\cf9 \strokec9 .\cf5 \strokec5 classList\cf9 \strokec9 .\cf5 \strokec5 remove\cf9 \strokec9 (\cf10 \strokec10 'open'\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3             \cf9 \strokec9 \});\cf5 \cb1 \strokec5 \
+\cb3             \cb1 \
+\cb3             mobileMenuLinks\cf9 \strokec9 .\cf5 \strokec5 forEach\cf9 \strokec9 (\cf5 \strokec5 link \cf9 \strokec9 =>\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                 link\cf9 \strokec9 .\cf5 \strokec5 addEventListener\cf9 \strokec9 (\cf10 \strokec10 'click'\cf9 \strokec9 ,\cf5 \strokec5  \cf9 \strokec9 (\cf5 \strokec5 e\cf9 \strokec9 )\cf5 \strokec5  \cf9 \strokec9 =>\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                     mobileMenuOverlay\cf9 \strokec9 .\cf5 \strokec5 classList\cf9 \strokec9 .\cf5 \strokec5 remove\cf9 \strokec9 (\cf10 \strokec10 'open'\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3                     smoothScroll\cf9 \strokec9 (\cf5 \strokec5 e\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3                 \cf9 \strokec9 \});\cf5 \cb1 \strokec5 \
+\cb3             \cf9 \strokec9 \});\cf5 \cb1 \strokec5 \
+\cb3         \cf9 \strokec9 \});\cf5 \cb1 \strokec5 \
+\cb3     \cf6 \strokec6 </\cf2 \strokec2 script\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\
+\pard\pardeftab720\partightenfactor0
+\cf6 \cb3 \strokec6 </\cf2 \strokec2 body\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cf6 \cb3 \strokec6 </\cf2 \strokec2 html\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\
+}
